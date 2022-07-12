@@ -1,0 +1,13 @@
+.header__menu-link {
+  margin: 0;
+  padding: 13px 10px;
+  min-height: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.header__menu-link:hover {
+    border-bottom: 1px solid #323232;
+}
