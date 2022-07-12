@@ -2,14 +2,14 @@
 # The humans responsible & technology colophon
 
 # TEAM
-проверка
-    <name> -- <role> -- <twitter>
+    Родионов Александр -- Teamlead frontend developer -- https://github.com/psevdo212
+    Канат уулу Дастан -- Frontend developer -- https://github.com/Grimlerih
+    Ферафонтов Дмитрий -- Frontend developer -- https://github.com/DmitriyFFF
+    Хетагуров Мурат -- Frontend developer -- https://github.com/MuratKhetagurov
+    Потрапелюк Ярослав -- Frontend developer -- https://github.com/MrStnr21
 
 # THANKS
 
-    <name>
-
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5, JS
