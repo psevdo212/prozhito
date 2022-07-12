@@ -11,37 +11,35 @@
 @import url(../blocks/subheader/subheader.css);
 @import url(../blocks/background/background.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__menu-links.css/footer__menu-links.css);
-@import url(../blocks/footer/__menu-link/footer__menu-link.css);
-@import url(../blocks/footer/__menu/footer__menu.css);
-@import url(../blocks/footer/__logo-container/footer__logo-container.css);
-@import url(../blocks/footer/__social-menu/footer__social-menu.css);
-@import url(../blocks/footer/__privacy-menu-link/footer__privacy-menu-link.css);
-@import url(../blocks/footer/__privacy-menu-links/footer__privacy-menu-links.css);
-@import url(../blocks/footer/__privacy-menu/footer__privacy-menu.css);
-@import url(../blocks/footer/__social-media-icon/footer__social-media-icon.css);
-@import url(../blocks/footer/__social-media-link/footer__social-media-link.css);
-@import url(../blocks/footer/__social-media-links/footer__social-media-links.css);
-@import url(../blocks/footer/__social-media/footer__social-media.css);
+
+
+@import url(../blocks/diary/diary.css);
+@import url(../blocks/diary/__title/diary__title.css);
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__label/card__label.css);
+@import url(../blocks/card/__name/card__name.css);
+@import url(../blocks/card/__photo/card__photo.css);
+@import url(../blocks/card/__text/card__text.css);
+
+
+
 @import url();
 @import url();
 @import url();
 @import url();
 @import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+
+
+
+
+
+
+
+
+
+
+
+
