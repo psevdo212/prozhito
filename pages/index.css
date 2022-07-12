@@ -4,6 +4,27 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/footer/footer.css);
+
+@import url(../blocks/diary/diary.css);
+@import url(../blocks/diary/__title/diary__title.css);
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__label/card__label.css);
+@import url(../blocks/card/__name/card__name.css);
+@import url(../blocks/card/__photo/card__photo.css);
+@import url(../blocks/card/__text/card__text.css);
+
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
 @import url();
 @import url();
 @import url();
@@ -31,20 +52,15 @@
 @import url();
 @import url();
 @import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+
+
+
+
+
+
+
+
+
+
+
+
