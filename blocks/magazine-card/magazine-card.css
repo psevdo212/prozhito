@@ -1,0 +1,9 @@
+.magazine-card {
+  width: 328px;
+  height: 526px;
+  background: #c4c4c4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.magazine-card__subtitle {
+  font-size: 20px;
+  font-family: 'PT Sans';
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 12px 0;
+}
