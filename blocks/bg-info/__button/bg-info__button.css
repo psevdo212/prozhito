@@ -1,0 +1,10 @@
+.bg-info__button {
+  width: 329px;
+  color: #fff;
+  height: 50px;
+  background-color: inherit;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  margin: 0 116px 32px 32px;
+  cursor: pointer;
+}
