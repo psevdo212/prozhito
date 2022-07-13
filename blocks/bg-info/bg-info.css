@@ -1,0 +1,8 @@
+.bg-info {
+  background-color: #323232;
+  max-width: 477px;
+  height: 560px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
