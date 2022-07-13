@@ -1,0 +1,8 @@
+.info-list__cards {
+  /* overflow-x: auto;
+  scroll-snap-type: x mandatory; */
+  display: grid;
+  grid-template-columns: repeat(6, 328px);
+  list-style: none;
+  padding: 0;
+}

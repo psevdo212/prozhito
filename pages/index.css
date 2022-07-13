@@ -34,17 +34,46 @@
 
 @import url(../blocks/diary/__title/diary__title.css);
 @import url(../blocks/diary/diary.css);
+
+@import url(../blocks/news/news.css);
+
+@import url(../blocks/bg-info/bg-info.css);
+@import url(../blocks/bg-info/__button/bg-info__button.css);
+@import url(../blocks/bg-info/__title/bg-info__title.css);
+
+@import url(../blocks/info-list/info-list.css);
+@import url(../blocks/info-list/__button/info-list__button.css);
+@import url(../blocks/info-list/__button/_type/info-list__button_type_left.css);
+@import url(../blocks/info-list/__button/_type/info-list__button_type_right.css);
+@import url(../blocks/info-list/__buttons/info-list__buttons.css);
+@import url(../blocks/info-list/__cards/info-list__cards.css);
+@import url(../blocks/info-list/__header/info-list__header.css);
+@import url(../blocks/info-list/__scrollbar-track/info-list__scrollbar-track.css);
+@import url(../blocks/info-list/__scrollbar/info-list__scrollbar.css);
+@import url(../blocks/info-list/__title/info-list__title.css);
+@import url(../blocks/info-list/);
+
+@import url(../blocks/news-card/news-card.css);
+@import url(../blocks/news-card/__date/news-card__date.css);
+@import url(../blocks/news-card/__image/news-card__image.css);
+@import url(../blocks/news-card/__label/news-card__label.css);
+@import url(../blocks/news-card/__text/news-card__text.css);
+@import url(../blocks/news-card/__title/news-card__title.css);
+
 @import url();
 @import url();
 @import url();
 @import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+
+
+
+
+
+
+
+
+
+
+
+
+

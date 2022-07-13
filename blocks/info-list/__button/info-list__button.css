@@ -1,0 +1,15 @@
+.info-list__button {
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid #323232;
+  border-radius: 50%;
+  background-color: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.info-list__button:hover {
+  opacity: 0.5;
+}
