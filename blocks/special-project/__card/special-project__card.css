@@ -1,0 +1,9 @@
+.special-project__card {
+    display: flex;
+    flex-direction: row;
+    max-width: 678px;
+    max-height: 354px;
+    background-color: #F7F4F0;
+    position: relative;
+
+}

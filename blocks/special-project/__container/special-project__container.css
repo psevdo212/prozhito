@@ -1,0 +1,10 @@
+.special-project__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    padding-top: 41px;
+    margin: 0;
+    margin-bottom: 31px;
+    grid-gap: 20px 20px;
+
+}

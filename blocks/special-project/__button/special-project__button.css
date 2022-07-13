@@ -1,0 +1,20 @@
+.special-project__button {
+width: 329px;
+height: 50px;
+margin: auto 0;
+border-radius: 8px;
+border: none;
+background-color: #A5CDAB;
+transition: 0.5s ease-in-out;
+cursor: pointer;
+padding: 0;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+font-family: 'PT Sans';
+margin: 0 auto;
+}
+
+.special-project__button:hover {
+    background-color: #97BA9C;
+  }

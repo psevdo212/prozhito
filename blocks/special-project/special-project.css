@@ -1,0 +1,7 @@
+.special-project {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 64px);
+    margin: 0 auto;
+    
+}
