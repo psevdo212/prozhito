@@ -2,3 +2,11 @@
   border: none;
   background-color: #a5cdab;
 }
+
+.search__button_type_submit:hover {
+  background-color: #97ba9c;
+}
+
+.search__button_type_submit:active {
+  background-color: #7a9f80;
+}
