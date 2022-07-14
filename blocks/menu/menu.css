@@ -1,0 +1,9 @@
+.menu {
+  margin: 0 auto 164px;
+  padding: 0;
+  max-width: 1144px;
+  min-height: 562px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(336px, 562px));
+  gap: 20px;
+}

@@ -1,0 +1,6 @@
+.info-list__scrollbar-track {
+  width: 355px;
+  background-color: #323232;
+  height: 100%;
+  z-index: 1;
+}
