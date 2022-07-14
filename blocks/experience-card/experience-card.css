@@ -1,0 +1,18 @@
+.experience-card {
+  width: 328px;
+  height: 526px;
+  background: #e7e4de;
+  border-radius: 8px;
+  color: #323232;
+}
+
+.experience-card::after {
+  background-color: #e7e4de;
+  opacity: 1;
+  transition: opacity .4s ease;
+}
+
+.experience-card:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
