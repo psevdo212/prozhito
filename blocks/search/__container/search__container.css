@@ -1,3 +1,4 @@
 .search__container {
-  margin-left: 137px;
+  display: flex;
+  padding: 56px 116px 64px;
 }
