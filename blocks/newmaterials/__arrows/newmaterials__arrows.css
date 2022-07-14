@@ -1,0 +1,6 @@
+.newmaterials__arrows {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 113px;
+}
