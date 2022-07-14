@@ -1,0 +1,10 @@
+.magazine-card__tag {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'PT Sans';
+  line-height: 21px;
+  font-style: italic;
+  padding: 12px 16px 0;
+  margin: 0;
+}

@@ -1,0 +1,11 @@
+.menu__title {
+  margin: 32px auto 12px;
+  padding: 0;
+  max-width: 500px;
+  min-height: 36px;
+  font-family: "WF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+}

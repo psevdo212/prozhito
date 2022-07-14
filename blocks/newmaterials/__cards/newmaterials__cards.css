@@ -1,0 +1,6 @@
+.newmaterials__cards {
+  padding-left: 20px;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}

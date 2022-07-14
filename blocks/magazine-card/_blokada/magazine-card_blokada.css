@@ -1,0 +1,6 @@
+.magazine-card_blokada {
+  background: linear-gradient(0deg, rgba(50, 50, 50, 0.6), rgba(50, 50, 50, 0.6)), url(../../../images/winter_people.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
