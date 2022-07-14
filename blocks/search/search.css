@@ -1,0 +1,7 @@
+.search {
+  display: flex;
+  max-width: 1376px;
+  max-height: 560px;
+  background-color: #f7f4f0;
+  padding: 56px 116px 64px;
+}

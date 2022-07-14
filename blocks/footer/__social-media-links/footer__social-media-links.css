@@ -1,6 +1,7 @@
 .footer__social-media-links {
     margin: 0;
     padding: 0;
+    min-height: 26px;
     list-style: none;
     display: flex;
     flex-direction: column;
