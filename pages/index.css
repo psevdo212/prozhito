@@ -104,3 +104,14 @@
 @import url(../blocks/experience-card/__photo/experience-card__photo.css);
 @import url(../blocks/experience-card/__about/experience-card__about.css);
 @import url(../blocks/experience-card/__description/experience-card__description.css);
+@import url(../blocks/special-project/special-project.css);
+@import url(../blocks/special-project/__button/special-project__button.css);
+@import url(../blocks/special-project/__card-date/special-project__card-date.css);
+@import url(../blocks/special-project/__card-text/special-project__card-text.css);
+@import url(../blocks/special-project/__card-title/special-project__card-title.css);
+@import url(../blocks/special-project/__card/special-project__card.css);
+@import url(../blocks/special-project/__container/special-project__container.css);
+@import url(../blocks/special-project/__image/special-project__image.css);
+@import url(../blocks/special-project/__text-content/special-project__text-content.css);
+@import url(../blocks/special-project/__title/special-project__title.css);
+@import url(../blocks/special-project/__button-icon/special-project__button-icon.css);

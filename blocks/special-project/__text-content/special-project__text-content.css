@@ -1,0 +1,6 @@
+.special-project__text-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 402px;
+    
+}
