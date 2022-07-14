@@ -7,3 +7,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.magazine-card::after {
+  background-color: #c4c4c4;
+  opacity: 1;
+  transition: opacity .4s ease;
+}
+
+.magazine-card:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
