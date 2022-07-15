@@ -1,19 +1,20 @@
-.banner__close-button {
+.popup-structure__close-button {
   margin: 0;
   padding: 0;
   background-image: url(../../../images/close_cross.svg);
   background-color: rgba(0, 0, 0, 0);
-  width: 17px;
-  height: 17px;
+  width: 22px;
+  height: 22px;
   background-size: contain;
   border: 0;
   position: absolute;
-  top: 3px;
-  left: -19px;
+  top: 37px;
+  right: 37px;
   transition: 0.1s ease-out;
   cursor: pointer;
 }
 
-.banner__close-button:hover {
+.popup-structure__close-button:hover {
   opacity: .7;
 }
+

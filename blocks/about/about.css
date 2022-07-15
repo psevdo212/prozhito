@@ -1,7 +1,8 @@
 .about {
-  margin: 70px 245px 114px 32px;
-  padding: 0;
+  margin: 0;
+  padding: 70px 245px 114px 32px;
   max-width: 1163px;
   min-height: 330px;
+  background-color: #F7F4F0;
 }
 
