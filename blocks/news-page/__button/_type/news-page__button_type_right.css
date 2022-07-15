@@ -1,0 +1,7 @@
+.news-page__button_type_right {
+  background-image: url('../../../../images/Right_arrow_pagination.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+}

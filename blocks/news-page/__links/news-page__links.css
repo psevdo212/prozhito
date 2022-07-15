@@ -1,0 +1,5 @@
+.news-page__links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}

@@ -115,3 +115,34 @@
 @import url(../blocks/special-project/__text-content/special-project__text-content.css);
 @import url(../blocks/special-project/__title/special-project__title.css);
 @import url(../blocks/special-project/__button-icon/special-project__button-icon.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(../blocks/news-page/news-page.css);/*Страница новостей  -------   Начало*/
+@import url(../blocks/news-page/__cards/news-page__cards.css);
+@import url(../blocks/news-page/__path/news-page__path.css);
+@import url(../blocks/news-page/__title/news-page__title.css);
+@import url(../blocks/news-page/__pagination/news-page__pagination.css);
+@import url(../blocks/news-page/__links/news-page__links.css);
+@import url(../blocks/news-page/__button/news-page__button.css);
+@import url(../blocks/news-page/__button/_type/news-page__button_type_left.css);
+@import url(../blocks/news-page/__button/_type/news-page__button_type_right.css); /*Страница новостей  -------   Кончало*/
