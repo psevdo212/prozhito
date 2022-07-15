@@ -1,7 +1,6 @@
 .info-list {
-  width: 100%;
+  max-width: 943px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   margin-left: 20px;
   overflow: hidden;

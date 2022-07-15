@@ -1,4 +1,10 @@
 .card {
   width: 328px;
   background-color: #E7E4DE;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.card:hover {
+  opacity: 0.8;
 }
