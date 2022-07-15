@@ -1,7 +1,9 @@
 .search {
   display: flex;
-  max-width: 1376px;
+  justify-content: center;
+  align-items: center;
+  max-width: calc(100% - 32px * 2);
   max-height: 560px;
   background-color: #f7f4f0;
-  padding: 56px 116px 64px;
+  margin: 0 auto 76px;
 }

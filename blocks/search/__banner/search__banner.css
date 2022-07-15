@@ -1,0 +1,5 @@
+.search__banner{
+  display: flex;
+  flex-direction: column;
+  margin-left: 137px;
+}
