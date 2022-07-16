@@ -1,9 +1,12 @@
 .special-project__card {
-    display: flex;
-    flex-direction: row;
-    max-width: 678px;
-    max-height: 354px;
-    background-color: #F7F4F0;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  max-width: 678px;
+  max-height: 354px;
+  background-color: #f7f4f0;
+  position: relative;
+}
 
+.special-project__card:hover {
+  cursor: pointer;
 }

@@ -10,10 +10,12 @@
 @import url(../blocks/header/__logo-container/header__logo-container.css);
 @import url(../blocks/header/__menu-links/header__menu-links.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu-link/_active/header__menu-link_active.css);
 @import url(../blocks/header/_subheader-opened/header_subheader-opened.css);
 @import url(../blocks/subheader/subheader.css);
 @import url(../blocks/background/background.css);
 @import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__content/banner__content.css);
 @import url(../blocks/banner/__title/banner__title.css);
 @import url(../blocks/banner/__text/banner__text.css);
 @import url(../blocks/banner/__close-button/banner__close-button.css);
@@ -32,6 +34,7 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__label/card__label.css);
 @import url(../blocks/card/__name/card__name.css);
+@import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__photo/card__photo.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/diary/__title/diary__title.css);
@@ -83,7 +86,6 @@
 @import url(../blocks/search/__button/_type/search__button_type_to-material.css);
 @import url(../blocks/search/__link-button/search__link-button.css);
 @import url(../blocks/search/__button-arrow/search__button-arrow.css);
-@import url(../blocks/media/media.css);
 @import url(../blocks/media/__magazine/media__magazine.css);
 @import url(../blocks/media/__title/media__title.css);
 @import url(../blocks/magazine-card/magazine-card.css);
