@@ -14,7 +14,7 @@
           <img
             src="./images/logo_prozhito.svg"
             alt="логотип Прожито"
-            class="logo header__logo"
+            class="logo"
           />
           <img
             src="./images/logo_eur_university_spb.svg"
@@ -201,7 +201,11 @@
                   <p class="news-card__date">27.01.2022</p>
                   <p class="news-card__title">Спецпроект</p>
                 </div>
-                <img src="./images/book.png" alt="" class="news-card__image" />
+                <img
+                  src="./images/book.png"
+                  alt="Закрытая книга"
+                  class="news-card__image"
+                />
                 <p class="news-card__text">
                   В&nbsp;издательстве Европейского университета
                   в&nbsp;Санкт-Петербурге вышла первая книга из&nbsp;серии
@@ -215,7 +219,7 @@
                 </div>
                 <img
                   src="./images/documents.png"
-                  alt=""
+                  alt="Стопка книг"
                   class="news-card__image"
                 />
                 <p class="news-card__text">
@@ -231,7 +235,7 @@
                 </div>
                 <img
                   src="./images/documents.png"
-                  alt=""
+                  alt="стопка книг"
                   class="news-card__image"
                 />
                 <p class="news-card__text">
@@ -251,42 +255,48 @@
           <ul class="cards">
             <li class="card" onclick="location.href='typicalPage.html'">
               <div class="card__label">НУЖЕН НАБОРЩИК</div>
-              <h3 class="card__title">
-                <p class="card__name">Артамонов</p>
-                <p class="card__name">Виктор</p>
-              </h3>
-              <img
-                src="./images/man_in_glass.png"
-                alt="человек в очках"
-                class="card__photo"
-              />
-              <p class="card__text">
-                Петербургский краевед и&nbsp;педагог. Нам необходимо набрать
-                20&nbsp;рукописных тетрадей
-              </p>
+              <div class="card__content">
+                <h3 class="card__title">
+                  <p class="card__name">Артамонов</p>
+                  <p class="card__name">Виктор</p>
+                </h3>
+                <img
+                  src="./images/man_in_glass.png"
+                  alt="человек в очках"
+                  class="card__photo"
+                />
+                <p class="card__text">
+                  Петербургский краевед и&nbsp;педагог. Нам необходимо набрать
+                  20&nbsp;рукописных тетрадей
+                </p>
+              </div>
             </li>
             <li class="card" onclick="location.href='typicalPage.html'">
               <div class="card__label">НУЖНА СВЕРКА</div>
-              <h3 class="card__title">
-                <p class="card__name">Анонимный блокадный дневник</p>
-              </h3>
-              <img src="./images/anonym.png" alt="" class="card__photo" />
-              <p class="card__text">
-                Музей Ахматовой передал нам для работы рукопись анонимного
-                преподавателя ФЗУ, ставшего свидетелем блокады Ленинграда
-              </p>
+              <div class="card__content">
+                <h3 class="card__title">
+                  <p class="card__name">Анонимный блокадный дневник</p>
+                </h3>
+                <img src="./images/anonym.png" alt="" class="card__photo" />
+                <p class="card__text">
+                  Музей Ахматовой передал нам для работы рукопись анонимного
+                  преподавателя ФЗУ, ставшего свидетелем блокады Ленинграда
+                </p>
+              </div>
             </li>
             <li class="card" onclick="location.href='typicalPage.html'">
               <div class="card__label">НОВЫЕ МАТЕРИАЛЫ</div>
-              <h3 class="card__title">
-                <p class="card__name">Родоман</p>
-                <p class="card__name">Борис</p>
-              </h3>
-              <img src="./images/man_woman.png" alt="" class="card__photo" />
-              <p class="card__text">
-                Документы из&nbsp;домашнего архива географа: переписка, дневники
-                и материалы для его научных статей
-              </p>
+              <div class="card__content">
+                <h3 class="card__title">
+                  <p class="card__name">Родоман</p>
+                  <p class="card__name">Борис</p>
+                </h3>
+                <img src="./images/man_woman.png" alt="" class="card__photo" />
+                <p class="card__text">
+                  Документы из&nbsp;домашнего архива географа: переписка,
+                  дневники и материалы для его научных статей
+                </p>
+              </div>
             </li>
           </ul>
         </section>
@@ -338,8 +348,8 @@
             </div>
           </div>
         </section>
-        <section class="news media">
-          <div class="bg-info">
+        <section class="media news">
+          <div class="bg-info media__magazine">
             <h2 class="bg-info__title media__title">
               Журнал &laquo;Прожито&raquo;
             </h2>
@@ -411,7 +421,7 @@
                 <p class="experience-card__description">ОПЫТ ЧИТАТЕЛЯ</p>
               </div>
             </div>
-            <div class="info-list__scrollbar">
+            <div class="info-list__scrollbar media__scrollbar">
               <div class="info-list__scrollbar-track"></div>
             </div>
           </div>
@@ -419,7 +429,10 @@
         <section class="special-project">
           <h2 class="special-project__title">Спецпроекты</h2>
           <div class="special-project__container">
-            <div class="special-project__card" onclick="location.href='typicalPage.html'">
+            <div
+              class="special-project__card"
+              onclick="location.href='typicalPage.html'"
+            >
               <img
                 class="special-project__image"
                 src="./images/marjan-blan.png"
@@ -438,7 +451,10 @@
                 <p class="special-project__card-date">13&nbsp;декабря 2021</p>
               </div>
             </div>
-            <div class="special-project__card" onclick="location.href='typicalPage.html'">
+            <div
+              class="special-project__card"
+              onclick="location.href='typicalPage.html'"
+            >
               <img
                 class="special-project__image"
                 src="./images/blokada.png"
@@ -496,7 +512,7 @@
             <img
               src="./images/logo_eur_university_spb.svg"
               alt="логотип университета"
-              class="logo footer__logo"
+              class="logo"
             />
           </div>
           <nav class="footer__social-media">
