@@ -1,0 +1,9 @@
+.menu__cards {
+  margin: 0 auto;
+  padding-bottom: 164px;
+  max-width: 1144px;
+  min-height: 562px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(336px, 562px));
+  gap: 20px;
+}

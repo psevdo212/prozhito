@@ -1,6 +1,5 @@
 .header__logo-container {
-    margin: 0;
-    padding: 0;
+    margin-left: 20px;
     max-width: 294px;
     max-height: 28.72px;
     display: flex;

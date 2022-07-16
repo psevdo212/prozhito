@@ -1,10 +1,5 @@
 .media__title {
-  color: #fff;
-  font-family: 'WF';
-  font-size: 46px;
+  max-width: 452px;
   line-height: 120%;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 16px;
-  margin-left: 33px;
+  padding-right: 0;
 }
