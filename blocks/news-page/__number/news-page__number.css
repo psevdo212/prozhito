@@ -1,0 +1,10 @@
+.news-page__number {
+  width: 32px;
+  height: 34px;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #323232;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}

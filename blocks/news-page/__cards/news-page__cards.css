@@ -1,0 +1,9 @@
+.news-page__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1144px;
+  margin: 62px auto 40px;
+  gap: 62px 80px;
+  list-style: none;
+  padding: 0;
+}
