@@ -1,0 +1,9 @@
+.magazine-page__title {
+    margin: 0;
+    padding-top: 62px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+}
