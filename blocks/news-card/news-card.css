@@ -3,5 +3,9 @@
   display: grid;
   grid-template-columns: 89px 212px;
   gap: 20px 28px;
-  /* scroll-snap-align: start; */
+  transition: opacity .2s linear;
+}
+
+.news-card:hover {
+  opacity: .8;
 }

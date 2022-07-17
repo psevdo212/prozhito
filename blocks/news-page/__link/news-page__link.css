@@ -1,0 +1,10 @@
+.news-page__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.news-page__link:last-of-type {
+  margin-right: 0;
+}
