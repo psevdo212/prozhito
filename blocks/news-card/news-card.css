@@ -3,5 +3,11 @@
   display: grid;
   grid-template-columns: 89px 212px;
   gap: 20px 28px;
-  /* scroll-snap-align: start; */
+  opacity: 1;
+  transition: opacity .4s ease;
+}
+
+.news-card:hover {
+  cursor: pointer;
+  opacity: .8;
 }
