@@ -3,9 +3,11 @@
   display: grid;
   grid-template-columns: 89px 212px;
   gap: 20px 28px;
-  transition: opacity .2s linear;
+  opacity: 1;
+  transition: opacity .4s ease;
 }
 
 .news-card:hover {
+  cursor: pointer;
   opacity: .8;
 }
