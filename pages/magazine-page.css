@@ -53,12 +53,17 @@
 @import url(../blocks/news-page/__cards/news-page__cards.css);
 @import url(../blocks/news-page/__path/news-page__path.css);
 @import url(../blocks/news-page/__title/news-page__title.css);
-@import url(../blocks/news-page/__pagination/news-page__pagination.css);
-@import url(../blocks/news-page/__links/news-page__links.css);
-@import url(../blocks/news-page/__button/news-page__button.css);
-@import url(../blocks/news-page/__button/_type/news-page__button_type_left.css);
-@import url(../blocks/news-page/__button/_type/news-page__button_type_right.css);
+
 @import url(../blocks/magazine-page/__title/magazine-page__title.css);
 @import url(../blocks/magazine-page/__sort-container/magazine-page__sort-container.css);
 @import url(../blocks/magazine-page/__links/magazine-page__sort-links.css);
 @import url(../blocks/news-page/__cards/_magazine/news-page__cards_magazine.css);
+
+@import url(../blocks/news-page/__pagination/news-page__pagination.css);
+@import url(../blocks/news-page/__button/news-page__button.css);
+@import url(../blocks/news-page/__button/_type/news-page__button_type_left.css);
+@import url(../blocks/news-page/__button/_type/news-page__button_type_right.css);
+@import url(../blocks/news-page/__links/news-page__links.css);
+@import url(../blocks/news-page/__link/news-page__link.css);
+@import url(../blocks/news-page/__number/news-page__number.css);
+@import url(../blocks/news-page/__number/_active/news-page__number_active.css);
