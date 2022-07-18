@@ -1,4 +1,5 @@
 .news-card__image {
-  max-width: 212px;
-  background-size: contain;
+  width: 212px;
+  height: 223px;
+  object-fit: cover;
 }
