@@ -117,20 +117,4 @@
 @import url(../blocks/special-project/__title/special-project__title.css);
 @import url(../blocks/special-project/__button-icon/special-project__button-icon.css);
 @import url(../blocks/search/__banner/search__banner.css);/*блок search*/
-@import url(../blocks/route/route.css);
-@import url(../blocks/route/__container/route__container.css);
-@import url(../blocks/route/__name/route__name.css);
-@import url(../blocks/route/_active-link/route_active-link.css);
-@import url(../blocks/sidebanner/sidebanner.css);
-@import url(../blocks/sidebanner/__title/sidebanner__title.css);
-@import url(../blocks/sidebanner/__text/sidebanner__text.css);
-@import url(../blocks/sidebanner/__close-button/sidebanner__close-button.css);
-@import url(../blocks/sidebanner/_closed/sidebanner_closed.css);
-@import url(../blocks/structure/structure.css);
-@import url(../blocks/structure/__button/structure__button.css);
-@import url(../blocks/article/article.css);
-@import url(../blocks/popup-structure/popup-structure.css);
-@import url(../blocks/popup-structure/__container/popup-structure__container.css);
-@import url(../blocks/popup-structure/__part/popup-structure__part.css);
-@import url(../blocks/popup-structure/__close-button/popup-structure__close-button.css);
-@import url(../blocks/popup-structure/_opened/popup-structure_opened.css);
+
