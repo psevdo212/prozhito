@@ -1,5 +1,20 @@
 .news-card__image {
-  width: 212px;
-  height: 223px;
+  max-width: 212px;
+  max-height: 223px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .news-card__image {
+    max-width: 102px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .news-card__image {
+    width: 336px;
+    height: 160px;
+    max-width: none;
+  }
 }

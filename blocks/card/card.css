@@ -7,3 +7,16 @@
 .card:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 238px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card {
+    min-width: 276px;
+    margin: 0 12px;
+  }
+}

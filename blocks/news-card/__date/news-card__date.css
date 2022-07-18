@@ -7,3 +7,12 @@
   margin: 0 0 8px 0;
   max-width: 89px;
 }
+
+@media screen and (max-width: 768px) {
+  .news-card__date {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 66px;
+    margin: 0 0 4px 0;
+  }
+}

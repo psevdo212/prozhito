@@ -5,3 +5,10 @@
   bottom: 18px;
   height: 419px;
 }
+
+@media screen and (max-width: 768px) {
+  .card__content {
+    max-height: 360px;
+    padding: 0;
+  }
+}

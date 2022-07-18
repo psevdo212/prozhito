@@ -11,3 +11,19 @@
   cursor: pointer;
   opacity: .8;
 }
+
+@media screen and (max-width: 768px) {
+  .news-card{
+    gap: 8px 12px;
+    grid-template-columns: 66px 102px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .news-card{
+    grid-template-columns: 336px;
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    gap: 8px;
+    max-width: none;
+  }
+}

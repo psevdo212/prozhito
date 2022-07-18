@@ -7,3 +7,11 @@
   color: #323232;
   margin: 16px 0 24px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .info-list__title {
+    font-size: 30px;
+    line-height: 37px;
+    margin: 16px 0 16px 0;
+  }
+}

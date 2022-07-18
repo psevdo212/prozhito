@@ -1,1 +1,11 @@
-.news-card__label {}
+.news-card__label {
+}
+
+@media screen and (max-width: 360px) {
+  .news-card__label {
+    grid-row: 3/4;
+    display: flex;
+    justify-content: space-between;
+    max-height: 16px;
+  }
+}

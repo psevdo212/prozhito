@@ -28,3 +28,39 @@
   align-self: center;
   margin-left: 17px;
 }
+
+@media screen and (max-width: 768px) {
+  .bg-info__button {
+    font-size: 14px;
+    line-height: 18px;
+    border: none;
+    max-width: max-content;
+    padding: 0;
+    margin: 0 0 41px 72px;
+  }
+
+  .bg-info__button::after {
+    background-image: url(../../../images/right_defautl_green.svg);
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    top: 9px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bg-info__button {
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    margin: 0;
+    height: max-content;
+  }
+  .bg-info__button::after {
+    background-image: url(../../../images/arrow-right.svg);
+    width: 21px;
+    height: 12px;
+    margin-left: 18px;
+    top: 4px;
+  }
+}

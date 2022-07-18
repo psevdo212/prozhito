@@ -5,3 +5,10 @@
   height: 4px;
   background-color: #E7E4DE;
 }
+
+@media screen and (max-width: 768px) {
+  .info-list__scrollbar {
+    margin: 50px 0 0 0;
+    max-width: 487px;
+  }
+}

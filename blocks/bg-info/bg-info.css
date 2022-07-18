@@ -1,8 +1,24 @@
 .bg-info {
   background-color: #323232;
-  min-width: 477px;
-  min-height: 560px;
+  max-width: 477px;
+  height: 560px;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-info {
+    width: 253px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bg-info {
+    width: max-content;
+    height: 60px;
+    background-color: #fff;
+    margin-bottom: 16px;
+  }
 }

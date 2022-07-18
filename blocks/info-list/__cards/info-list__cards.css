@@ -8,3 +8,19 @@
   margin: 0;
   gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .info-list__cards {
+    grid-template-columns: repeat(6, 180px);
+
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .info-list__cards {
+    grid-template-rows: repeat(6, minmax(min-content, 246px));
+    grid-template-columns: 336px;
+    gap: 16px;
+  }
+}
