@@ -1,0 +1,12 @@
+.sidebanner {
+  margin: 0;
+  padding: 0;
+  min-width: 329px;
+  min-height: 93px;
+  position: absolute;
+  top: 880px;
+  right: 32px;
+  background-color: #f7f4f0;
+  box-shadow: 0px 12px 16px rgba(175, 194, 175, 0.08);
+  border-radius: 8px;
+}

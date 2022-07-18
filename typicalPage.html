@@ -1,163 +1,276 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Типовая страница</title>
-    <link rel="stylesheet" href="./pages/index.css" />
-  </head>
-  <body class="body">
-    <div class="page">
-      <header class="header">
-        <div class="header__logo-container">
-          <img
-            src="./images/logo_prozhito.svg"
-            alt="логотип Прожито"
-            class="logo header__logo"
-          />
-          <img
-            src="./images/logo_eur_university_spb.svg"
-            alt="логотип университета"
-            class="logo header__logo"
-          />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Типовая страница</title>
+  <link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body class="body">
+  <div class="page">
+    <header class="header__container">
+      <div class="header__logo-container">
+        <img src="./images/logo_prozhito.svg" alt="логотип Прожито" class="logo header__logo" />
+        <img src="./images/logo_eur_university_spb.svg" alt="логотип университета" class="logo header__logo" />
+      </div>
+      <nav class="header__menu">
+        <ul class="header__menu-links">
+          <li class="header__item">
+            <a href="https://prozhito.org/page/archive" target="_blank" class="link header__menu-link">Архив</a>
+          </li>
+          <li class="header_item">
+            <a href="https://prozhito.org/persons" target="_blank" class="link header__menu-link">Корпус</a>
+          </li>
+          <li class="header_item header_subheader-opened">
+            <a href="#" target="_blank" class="link header__menu-link">О проекте</a>
+            <ul class="subheader header__menu-links">
+              <li class="header__item">
+                <a href="#" target="_blank" class="link header__menu-link">О прожито</a>
+              </li>
+              <li class="header__item">
+                <a href="#" target="_blank" class="link header__menu-link">Как работать?</a>
+              </li>
+              <li class="header__item">
+                <a href="#" target="_blank" class="link header__menu-link">Медиа</a>
+              </li>
+              <li class="header__item">
+                <a href="#" target="_blank" class="link header__menu-link">Новости</a>
+              </li>
+              <li class="header__item">
+                <a href="#" target="_blank" class="link header__menu-link">Спецпроекты</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="route">
+        <div class="route__container">
+          <a href="./index.html" class="link route__name route_active-link">Главная страница</a>
+          <a href="./magazineProzhito.html" class="link route__name route_active-link">/ Журнал
+            &laquo;Прожито&raquo;</a>
+          <p class="route__name">/ Опыт прочтения одного дневника</p>
         </div>
-        <nav class="header__menu">
-          <ul class="header__menu-links">
-            <li class="header__item">
-              <a
-                href="https://prozhito.org/page/archive"
-                target="_blank"
-                class="link header__menu-link"
-                >Архив</a
-              >
-            </li>
-            <li class="header_item">
-              <a
-                href="https://prozhito.org/persons"
-                target="_blank"
-                class="link header__menu-link"
-                >Корпус</a
-              >
-            </li>
-            <li class="header_item header_subheader-opened">
-              <a href="#" target="_blank" class="link header__menu-link"
-                >О проекте</a
-              >
-              <ul class="subheader header__menu-links">
-                <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
-                    >О прожито</a
-                  >
-                </li>
-                <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
-                    >Как работать?</a
-                  >
-                </li>
-                <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
-                    >Медиа</a
-                  >
-                </li>
-                <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
-                    >Новости</a
-                  >
-                </li>
-                <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
-                    >Спецпроекты</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main class="content"></main>
-      <footer class="footer">
-        <nav class="footer__menu">
-          <ul class="footer__menu-links">
-            <li class="footer__item">
-              <a href="#" class="link footer__menu-link">О команде</a>
-            </li>
-            <li class="footer__item">
-              <a href="#" class="link footer__menu-link">Благодарности</a>
-            </li>
-            <li class="footer__item">
-              <a href="#" class="link footer__menu-link">Партнёры</a>
-            </li>
-            <li class="footer__item">
-              <a href="#" class="link footer__menu-link">FAQ</a>
-            </li>
-            <li class="footer__item">
-              <a href="#" class="link footer__menu-link">Инструкции</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="footer__social-menu">
-          <div class="footer__logo-container">
-            <img
-              src="./images/logo_prozhito.svg"
-              alt="логотип Прожито"
-              class="logo footer__logo"
-            />
-            <img
-              src="./images/logo_eur_university_spb.svg"
-              alt="логотип университета"
-              class="logo footer__logo"
-            />
+      </section>
+      <section class="sidebanner">
+        <h2 class="sidebanner__title">Это верно</h2>
+        <p class="sidebanner__text">Информация достоверна</p>
+        <button type="button" class="sidebanner__close-button"></button>
+      </section>
+      <section class="structure">
+        <button type="button" class="structure__button">оглавление</button>
+      </section>
+      <section class="article">
+        <h2>
+          ДЕТСТВО &nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp; ОПЫТ ЧИТАТЕЛЯ
+        </h2>
+        <h3>Опыт прочтения одного дневника</h3>
+        <div></div>
+        <h4>Часть один</h4>
+        <p>
+          В&nbsp;детстве я&nbsp;любила слушать радио. Проводное у&nbsp;нас
+          почему-то не&nbsp;работало, но&nbsp;была радиола, которая пластинки
+          уже не&nbsp;проигрывала, зато ловила 3-ю программу. Ту&nbsp;самую,
+          где новостей не&nbsp;было совсем, а&nbsp;передачи повторялись
+          неисчислимое количество раз. Приходишь из&nbsp;школы,
+          дома&nbsp;&mdash; никого, в&nbsp;Петропавловске-Камчатском полночь,
+          а&nbsp;по&nbsp;радио идёт &laquo;Театр у&nbsp;микрофона&raquo;. Все
+          спектакли я&nbsp;знала почти наизусть: классические постановки МХАТа
+          и&nbsp;Малого, авангардного &laquo;Мартина Идена&raquo;
+          с&nbsp;Высоцким в&nbsp;заглавной роли, тончайшие спектакли Алексея
+          Баталова по&nbsp;Толстому и&nbsp;Куприну. И&nbsp;когда
+          на&nbsp;&laquo;Радио Арзамас&raquo; услышала курс лекций
+          об&nbsp;Александре Афиногенове, мне не&nbsp;надо было объяснять: кто
+          это&nbsp;&mdash; его пьесу &laquo;Машенька&raquo; я&nbsp;хорошо
+          помнила. Лекции понравились. Минимальные поиски в&nbsp;интернете
+          привели на&nbsp;сайт &laquo;Прожито&raquo;. А&nbsp;потом
+          я&nbsp;попала на&nbsp;Лабораторию (был такой доковидный формат,
+          когда волонтёры одновременно работали каждый над своим фрагментом
+          неизвестного дневника, а&nbsp;потом обсуждали прочитанное).
+          На&nbsp;столе лежала общая тетрадь в&nbsp;коленкоровом переплёте,
+          купленная у&nbsp;букиниста. Это был второй, после моего, дневник,
+          который я&nbsp;держала в&nbsp;руках. И&nbsp;вот, читая страницу
+          за&nbsp;страницей, мы&nbsp;узнавали этого человек: старший таксатор
+          Далматовского лесничества, бывший офицер эстонской армии, строгий
+          глава семьи Клавдий Васильевич Попов. Так я&nbsp;стала волонтёром,
+          который помогает расшифровывать рукописные дневники
+          <span>&laquo;обыкновенных людей&raquo;</span>.
+        </p>
+        <blockquote>Дневник, о котором дальше пойдет речь, вел сначала подросток, потом юноша, который дал себе слово
+          честно
+          записывать все, что с ним происходило.</blockquote>
+        <p>
+          Начавшись почти черновиком к&nbsp;сочинению на&nbsp;всем знакомую
+          тему &laquo;Как я&nbsp;провел это лето&raquo;, дневник очень скоро
+          становится инструментом осмысления. Записи ведутся четыре года,
+          с&nbsp;августа 1937 года по&nbsp;июль 41-го, и&nbsp;заканчиваются
+          школьным выпускным, ожиданием повестки и&nbsp;проводами любимой
+          девушки в&nbsp;эвакуацию. Юра Беневольский погиб
+          в&nbsp;1944&nbsp;году. Ему был 21&nbsp;год. Перед отправкой
+          на&nbsp;фронт он&nbsp;отдал тетради Сергею Михайловичу Вяземскому,
+          отцу своей одноклассницы, с&nbsp;пожеланием дневник не&nbsp;читать
+          до&nbsp;возвращения, а&nbsp;в&nbsp;случае гибели&nbsp;&mdash;
+          распорядиться по&nbsp;своему усмотрению. В&nbsp;1974 году Сергей
+          Михайлович&nbsp;&mdash; известный ленинградский историк&nbsp;&mdash;
+          все свое выдающееся собрание документов и&nbsp;автографов передал
+          в&nbsp;ЦГАЛИ. Дневник Беневольского был переплетен, получил свой
+          инвентарный номер и&nbsp;место на&nbsp;полке архива.
+        </p>
+        <figure class="image">
+          <img src="./images/Yria_Benevolskyi.png" alt="Фото из дневника Юры Беневольского">
+          <figcaption>Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.</figcaption>
+        </figure>
+        <p>
+          Эти школьные тетради в&nbsp;12&nbsp;листов исписаны аккуратным, даже
+          красивым почерком. Юра выбрал форму ведения: даты выделены красными
+          чернилами, отчерчены широкие поля, которые он&nbsp;заполнял
+          рисунками, сносками и&nbsp;фотографиями&nbsp;&mdash;
+          и&nbsp;выдерживал ее&nbsp;до&nbsp;конца. Большинство фотографий были
+          сделаны аппаратом, который Юра собрал сам. Он&nbsp;с&nbsp;увлечением
+          занимался в&nbsp;фотокружке при Доме пионеров. В&nbsp;какой-то
+          момент его пришлось оставить, т.к.&nbsp;по&nbsp;мнению мамы страдали
+          уроки. Но&nbsp;благодаря этим снимкам мы&nbsp;видим их&nbsp;домашнюю
+          елку, маму за&nbsp;шитьем, Юриного друга, ледоход на&nbsp;Неве. Есть
+          и&nbsp;профессиональные фотокарточки: одноклассники, артистки кино,
+          сам Юра.
+        </p>
+        <div>
+          <video src="">
+          </video>
+          <button></button>
+          <p>Лекция о дневнике Юры Беневольского</p>
+        </div>
+        <p>
+          Первая дневниковая запись датирована 30&nbsp;августа 1937&nbsp;года.
+          Юра узнает, что его друг, Веня Аронвальд, во-первых, остается
+          на&nbsp;второй год, и, во-вторых, ведет дневник.<br />&quot;- Дай
+          посмотрю.<br />Засмеялся:<br />&mdash;&nbsp;Нет, смотреть можно
+          только одному человеку!<br />&mdash;&nbsp;Кому-же?<br />&mdash;&nbsp;Мне.
+        </p>
+        <div>
+          <div></div>
+          <audio></audio>
+          <p>Запись разговора Юры и Вени Аронвальда, 1937 год</p>
+        </div>
+        <p>
+          Но&nbsp;вскоре подростки дают читать друг другу свои дневники.
+          Дружба продлиться до&nbsp;самой войны, становясь то&nbsp;теснее,
+          то&nbsp;прохладней. Юра хорошо учится и&nbsp;это видно
+          не&nbsp;по&nbsp;отметкам (их&nbsp;он&nbsp;не&nbsp;приводит),
+          а&nbsp;потому, как растет его грамотность. Много читает.
+          Но&nbsp;есть предмет, который дается ему с&nbsp;трудом&nbsp;&mdash;
+          немецкий язык. В&nbsp;старших классах он&nbsp;увлечен героями Джека
+          Лондона. Любит кино и&nbsp;мечтает стать кинооператором. А&nbsp;еще
+          влюблен в&nbsp;заслуженную артистку республики Любовь Орлову:
+          собирает ее&nbsp;фотографии и&nbsp;не&nbsp;пропускает ни&nbsp;одного
+          фильма. Много и&nbsp;домашних дел: маме помочь, распилить
+          с&nbsp;отцом дрова. Вот только атмосфера в&nbsp;доме становится все
+          более напряженной. Однажды Юра, зачитавшись, забыл купить хлеба.
+          &quot;Он&nbsp;кричал что я&nbsp;нарочно ему врежу&#769; и&nbsp;т.д..
+          Наконец он&nbsp;приказал купить мне горячей булки. Я&nbsp;ушел.
+        </p>
+        <figure class="gallery">
+          <button></button>
+          <div class="content">
+            <figure class="image">
+              <img src="./images/Veni_Aronvald.png" alt="Рисунки из дневника Вени Аронвальда">
+              <figcaption>Рисунки из дневника Вени Аронвальда, 1937 год <span>1/4</span></figcaption>
+            </figure>
+            <figure class="image">
+              <img src="./images/Veni_Aronvald.png" alt="Рисунки из дневника Вени Аронвальда">
+              <figcaption>Рисунки из дневника Вени Аронвальда, 1937 год</figcaption>
+            </figure>
+            <figure class="image">
+              <img src="./images/Veni_Aronvald.png" alt="Рисунки из дневника Вени Аронвальда">
+              <figcaption>Рисунки из дневника Вени Аронвальда, 1937 год</figcaption>
+            </figure>
           </div>
-          <nav class="footer__social-media">
-            <ul class="footer__social-media-links">
-              <li class="footer__item">
-                <a
-                  href="https://t.me/prozhito"
-                  target="_blank"
-                  class="link footer__social-media-link"
-                >
-                  <img
-                    src="./images/logo_telegram.svg"
-                    alt="логотип Телеграм"
-                    class="footer__social-media-icon"
-                  />
-                  Телеграм
-                </a>
-              </li>
-              <li class="footer__item">
-                <a
-                  href="https://vk.com/prozhito"
-                  target="_blank"
-                  class="link footer__social-media-link"
-                >
-                  <img
-                    src="./images/logo_vk.svg"
-                    alt="логотип Вконтакте"
-                    class="footer__social-media-icon"
-                  />
-                  Вконтакте
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="footer__privacy-menu">
-            <ul class="footer__privacy-menu-links">
-              <li class="footer__item">
-                <a href="#" class="link footer__privacy-menu-link"
-                  >Юридическая информация</a
-                >
-              </li>
-              <li class="footer__item">
-                <a href="#" class="link footer__privacy-menu-link"
-                  >Политика конфиденциальности</a
-                >
-              </li>
-            </ul>
-          </nav>
+          <!-- <figcaption></figcaption> -->
+        </figure>
+        <p>
+          Да, днем! А&nbsp;ночью Петербург!!&quot; Многое объясняет фраза,
+          написанная Юрой ранее: &laquo;Когда приехал (вернее пришел) домой
+          Ната сообщила: А&nbsp;папа пьяный! &mdash;&nbsp;Это не&nbsp;новость,
+          отец за&nbsp;последние дни часто пьет, и&nbsp;мне опротивел&raquo;.
+          Вскоре любое упоминание об&nbsp;отце исчезает. Теперь на&nbsp;Юре
+          не&nbsp;только домашние заботы: &laquo;Сейчас я&nbsp;имею свои
+          деньги. Я&nbsp;их&nbsp;самым настоящим образом заработал. Мама мне
+          подыскала урок. И&nbsp;я&nbsp;теперь должен каждый 2-ой и&nbsp;3-ий
+          день шестидневки ездить и&nbsp;давать частные уроки одному шалопаю
+          из&nbsp;5-го класса.&nbsp;1&nbsp;час&nbsp;&mdash; 4&nbsp;руб. Мама
+          начинает относится ко&nbsp;мне как к&nbsp;юноше,
+          а&nbsp;не&nbsp;ребенку старшего возраста. Я&nbsp;теперь довольно
+          свободно могу уйти из&nbsp;дому в&nbsp;любое время&raquo;.
+        </p>
+      </section>
+      <section class="popup-structure">
+        <div class="popup-structure__container">
+          <a href="#" class="popup-structure__part">Часть один</a>
+          <a href="#" class="popup-structure__part">Часть два</a>
+          <a href="#" class="popup-structure__part">Часть три</a>
         </div>
-      </footer>
-    </div>
-    <script src="./script/index.js"></script>
-  </body>
+        <button type="button" class="popup-structure__close-button"></button>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer__menu">
+        <ul class="footer__menu-links">
+          <li class="footer__item">
+            <a href="#" class="link footer__menu-link">О команде</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="link footer__menu-link">Благодарности</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="link footer__menu-link">Партнёры</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="link footer__menu-link">FAQ</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="link footer__menu-link">Инструкции</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__social-menu">
+        <div class="footer__logo-container">
+          <img src="./images/logo_prozhito.svg" alt="логотип Прожито" class="logo footer__logo" />
+          <img src="./images/logo_eur_university_spb.svg" alt="логотип университета" class="logo footer__logo" />
+        </div>
+        <nav class="footer__social-media">
+          <ul class="footer__social-media-links">
+            <li class="footer__item">
+              <a href="https://t.me/prozhito" target="_blank" class="link footer__social-media-link">
+                <img src="./images/logo_telegram.svg" alt="логотип Телеграм" class="footer__social-media-icon" />
+                Телеграм
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="https://vk.com/prozhito" target="_blank" class="link footer__social-media-link">
+                <img src="./images/logo_vk.svg" alt="логотип Вконтакте" class="footer__social-media-icon" />
+                Вконтакте
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__privacy-menu">
+          <ul class="footer__privacy-menu-links">
+            <li class="footer__item">
+              <a href="#" class="link footer__privacy-menu-link">Юридическая информация</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="link footer__privacy-menu-link">Политика конфиденциальности</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+  <script src="./script/typicalPage.js"></script>
+</body>
+
 </html>
