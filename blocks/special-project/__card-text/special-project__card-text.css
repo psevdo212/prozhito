@@ -12,3 +12,15 @@
     
     
 }
+
+@media (max-width: 940px) {
+    .special-project__card-text {
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 1;
+    max-width: 100%;
+    
+
+    }
+  }

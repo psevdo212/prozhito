@@ -7,3 +7,14 @@
   margin-bottom: 35px;
   grid-gap: 20px 20px;
 }
+
+
+@media (max-width: 940px) {
+  .special-project__container {
+    padding-top: 25px;
+    margin-bottom: 24px;
+    grid-gap: 14px 14px;
+    margin: 0 auto 24px;
+
+  }
+}
