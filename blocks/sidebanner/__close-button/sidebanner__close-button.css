@@ -4,7 +4,7 @@
   width: 17px;
   height: 17px;
   background-image: url(../../../images/close_cross.svg);
-  background-color: rgba(0, 0, 0, 0);;
+  background-color: rgba(0, 0, 0, 0);
   background-size: contain;
   border: none;
   position: absolute;
@@ -15,5 +15,5 @@
 }
 
 .sidebanner__close-button:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
