@@ -4,4 +4,15 @@
   border-radius: 50%;
   margin: 20px auto;
   background-image: url(../../../images/woman.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .experience-card__photo {
+    width: 84px;
+    height: 84px;
+    margin: 4px auto;
+  }
 }

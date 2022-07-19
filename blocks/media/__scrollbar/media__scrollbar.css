@@ -1,3 +1,9 @@
 .media__scrollbar {
   margin: 44px 0 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .media__scrollbar {
+    margin: 16px 0 10px;
+  }
+}

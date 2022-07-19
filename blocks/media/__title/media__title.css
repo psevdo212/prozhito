@@ -1,5 +1,12 @@
 .media__title {
   max-width: 452px;
-  line-height: 120%;
+  line-height: 55px;
   padding-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .media__title {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }

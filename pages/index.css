@@ -64,6 +64,7 @@
 @import url(../blocks/info-list/__button/_type/info-list__button_type_left.css);
 @import url(../blocks/info-list/__button/_type/info-list__button_type_right.css);
 @import url(../blocks/info-list/__cards/info-list__cards.css);
+@import url(../blocks/info-list/__cards/_type/info-list__cards_type_media.css);
 @import url(../blocks/info-list/__header/info-list__header.css);
 @import url(../blocks/info-list/__scrollbar-track/info-list__scrollbar-track.css);
 @import url(../blocks/info-list/__scrollbar/info-list__scrollbar.css);
@@ -89,11 +90,12 @@
 @import url(../blocks/search/__link-button/search__link-button.css);
 @import url(../blocks/search/__button-arrow/search__button-arrow.css);
 @import url(../blocks/media/__magazine/media__magazine.css);
+@import url(../blocks/media/__button/magazine__button.css);
 @import url(../blocks/media/__scrollbar/media__scrollbar.css);
 @import url(../blocks/media/__title/media__title.css);
 @import url(../blocks/magazine-card/magazine-card.css);
-@import url(../blocks/magazine-card/_stalin/magazine-card_stalin.css);
-@import url(../blocks/magazine-card/_blokada/magazine-card_blokada.css);
+@import url(../blocks/magazine-card/_type/magazine-card_type_stalin.css);
+@import url(../blocks/magazine-card/_type/magazine-card_type_blokada.css);
 @import url(../blocks/magazine-card/__tag/magazine-card__tag.css);
 @import url(../blocks/magazine-card/__about/magazine-card__about.css);
 @import url(../blocks/magazine-card/__title/magazine-card__title.css);
