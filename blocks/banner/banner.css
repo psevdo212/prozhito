@@ -1,5 +1,5 @@
 .banner {
-  position: absolute;
+  position: fixed;
   top: 120px;
   right: 0;
   display: flex;
