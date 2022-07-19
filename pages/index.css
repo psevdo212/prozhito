@@ -65,8 +65,6 @@
 @import url(../blocks/info-list/__button/_type/info-list__button_type_right.css);
 @import url(../blocks/info-list/__cards/info-list__cards.css);
 @import url(../blocks/info-list/__header/info-list__header.css);
-@import url(../blocks/info-list/__scrollbar-track/info-list__scrollbar-track.css);
-@import url(../blocks/info-list/__scrollbar/info-list__scrollbar.css);
 @import url(../blocks/info-list/__title/info-list__title.css);
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__date/news-card__date.css);
@@ -89,7 +87,6 @@
 @import url(../blocks/search/__link-button/search__link-button.css);
 @import url(../blocks/search/__button-arrow/search__button-arrow.css);
 @import url(../blocks/media/__magazine/media__magazine.css);
-@import url(../blocks/media/__scrollbar/media__scrollbar.css);
 @import url(../blocks/media/__title/media__title.css);
 @import url(../blocks/magazine-card/magazine-card.css);
 @import url(../blocks/magazine-card/_stalin/magazine-card_stalin.css);
