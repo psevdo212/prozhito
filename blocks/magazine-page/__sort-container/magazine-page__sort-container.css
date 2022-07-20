@@ -1,4 +1,7 @@
 .magazine-page__sort-container {
   display: flex;
   flex-direction: row;
+  width: 45%;
+  margin: 0 auto;
+  column-gap: 10px;
 }

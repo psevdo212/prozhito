@@ -8,6 +8,7 @@
 @import url(../blocks/header/__logo-container/header__logo-container.css);
 @import url(../blocks/header/__menu-links/header__menu-links.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu-link/_main/header__menu-link_main.css);
 @import url(../blocks/header/_subheader-opened/header_subheader-opened.css);
 @import url(../blocks/subheader/subheader.css);
 @import url(../blocks/background/background.css);
@@ -20,6 +21,10 @@
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__button-name/menu__button-name.css);
 @import url(../blocks/menu/__button/menu__button.css);
+@import url(../blocks/route/route.css);
+@import url(../blocks/route/__container/route__container.css);
+@import url(../blocks/route/__name/route__name.css);
+@import url(../blocks/route/_active-link/route_active-link.css);
 
 @import url(../blocks/magazine-card/magazine-card.css);
 @import url(../blocks/magazine-card/_stalin/magazine-card_stalin.css);
@@ -56,7 +61,8 @@
 
 @import url(../blocks/magazine-page/__title/magazine-page__title.css);
 @import url(../blocks/magazine-page/__sort-container/magazine-page__sort-container.css);
-@import url(../blocks/magazine-page/__links/magazine-page__sort-links.css);
+@import url(../blocks/magazine-page/__sort-link/magazine-page__sort-link.css);
+@import url(../blocks/magazine-page/__sort-link/_active/magazine-page__sortlink_active.css);
 @import url(../blocks/news-page/__cards/_magazine/news-page__cards_magazine.css);
 
 @import url(../blocks/news-page/__pagination/news-page__pagination.css);

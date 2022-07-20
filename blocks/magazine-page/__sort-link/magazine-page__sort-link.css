@@ -1,6 +1,6 @@
-.magazine-page__sort-links {
+.magazine-page__sort-link {
   margin: 0;
-  margin-right: 52px;
+  margin-left: 36px;
   font-family: "PT Sans";
   font-weight: 400;
   font-size: 14px;
@@ -8,16 +8,18 @@
   color: #323232;
   transition: 0.1s ease-out;
   text-decoration: none;
-  padding-bottom: 16px;
+  padding-bottom: 14px;
   padding-top: 32px;
   text-transform: uppercase;
   border-bottom: 1px solid transparent;
+  min-width: 45px;
+  text-align: center;
 }
 
-.magazine-page__sort-links:hover {
+.magazine-page__sort-link:hover {
   border-bottom: 1px solid #323232;
 }
 
-.magazine-page__sort-links:last-of-type {
-  margin-right: 0px;
+.magazine-page__sort-link:last-of-type {
+  margin-left: 46px;
 }
