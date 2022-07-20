@@ -1,10 +1,7 @@
 .info-list__cards {
-<<<<<<< HEAD
   overflow-y: hidden;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-=======
->>>>>>> develope
   display: grid;
   grid-template-columns: repeat(6, 328px);
   list-style: none;
