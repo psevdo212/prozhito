@@ -1,0 +1,7 @@
+.magazine-page__way-box {
+    margin-left: 20px;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    align-self: baseline;
+  }

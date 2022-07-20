@@ -1,8 +1,15 @@
 .special-project__title {
-    margin: 0;
     font-size: 46px;
     font-weight: 400;
     line-height: 120%;
     font-family: 'WF';
     margin: 0 auto;
     }
+
+    @media (max-width: 940px) {
+        .special-project__title {
+            font-size: 30px;
+            line-height: 37px;
+
+        }
+      }

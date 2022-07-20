@@ -1,7 +1,8 @@
 .info-list__cards {
   display: grid;
-  grid-template-columns: repeat(6, 328px);
+  grid-template-columns: repeat(6, minmax(min-content, max-content));
   list-style: none;
+  max-width: 100%;
   padding: 0;
   margin: 0;
   gap: 20px;

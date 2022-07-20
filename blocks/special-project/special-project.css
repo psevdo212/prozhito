@@ -5,3 +5,11 @@
     margin: 56px auto 0;
 
 }
+
+@media (max-width: 940px) {
+    .special-project {
+      max-width: calc(100% - 34px);
+      margin-top: 32px;
+    }
+  }
+

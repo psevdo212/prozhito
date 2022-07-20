@@ -4,3 +4,10 @@
     max-width: 402px;
     
 }
+
+@media (max-width: 940px) {
+    .special-project__text-content {
+        max-width: 337px;
+        margin: 0 auto;
+    }
+  }

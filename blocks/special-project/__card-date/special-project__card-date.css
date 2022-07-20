@@ -8,3 +8,12 @@
     line-height: 18px;
     font-family: 'PT Sans';
 }
+
+@media (max-width: 940px) {
+    .special-project__card-date {
+        top: 326px;
+        left: 12px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+  }

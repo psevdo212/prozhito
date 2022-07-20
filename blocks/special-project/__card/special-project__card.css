@@ -10,3 +10,13 @@
 .special-project__card:hover {
   cursor: pointer;
 }
+
+
+@media (max-width: 940px) {
+  .special-project__card {
+    flex-direction: column;
+    max-width: 361px;
+    height: 354px;
+
+  }
+}
