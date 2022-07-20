@@ -13,44 +13,69 @@ buttonCloseBanner.addEventListener("click", closeBanner);
 
 // объявление переменных для скролла по кнопкам
 
-const scrollingSection = document.querySelector(".info-list__cards");
-const buttonScrollLeft = document.querySelector(".info-list__button-left");
-const buttonScrollRight = document.querySelector(".info-list__button-right");
+const scrollBgInfo = document.querySelector("#bgInfo");
+const bgInfoButtonLeft = document.querySelector("#bgInfoButtonLeft");
+const bgInfoButtonRight = document.querySelector("#bgInfoButtonRight");
+
+const scrollMediaNews = document.querySelector("#mediaNews");
+const mediaButtonLeft = document.querySelector("#mediaButtonLeft");
+const mediaButtonRight = document.querySelector("#mediaButtonRight");
 
 // функция скролла по кнопкам
 
-function scrollToRight() {
-  scrollingSection.scrollBy(348, 0);
-}
+bgInfoButtonRight.addEventListener("click", () => {
+  scrollBgInfo.scrollBy(348, 0);
+});
 
-function scrollToleft() {
-  scrollingSection.scrollBy(-348, 0);
-}
+bgInfoButtonLeft.addEventListener("click", () => {
+  scrollBgInfo.scrollBy(-348, 0);
+});
 
-buttonScrollRight.addEventListener("click", scrollToRight);
-buttonScrollLeft.addEventListener("click", scrollToleft);
+mediaButtonRight.addEventListener("click", () => {
+  scrollMediaNews.scrollBy(348, 0);
+});
 
-// делаем правую/левую кнопку активной/неактивной
+mediaButtonLeft.addEventListener("click", () => {
+  scrollMediaNews.scrollBy(-348, 0);
+});
 
-function addRemoveButtonLeft() {
-  const posX = scrollingSection.scrollLeft;
+// функция активации/деактивации для секции "Новости и события"
 
-  if (posX >= 1) {
-    buttonScrollLeft.classList.add("info-list__button-left_active");
+function addRemoveButtonsBgInfo() {
+  const posXbgInfo = scrollBgInfo.scrollLeft;
+
+  if (posXbgInfo >= 1) {
+    bgInfoButtonLeft.classList.add("info-list__button-left_active");
   } else {
-    buttonScrollLeft.classList.remove("info-list__button-left_active");
+    bgInfoButtonLeft.classList.remove("info-list__button-left_active");
+  }
+
+  if (posXbgInfo >= 1120) {
+    bgInfoButtonRight.classList.add("info-list__button-right_disabled");
+  } else if (posXbgInfo < 1120) {
+    bgInfoButtonRight.classList.remove("info-list__button-right_disabled");
   }
 }
 
-function addRemoveButtonRight() {
-  const posX = scrollingSection.scrollLeft;
+scrollBgInfo.addEventListener("scroll", addRemoveButtonsBgInfo);
 
-  if (posX >= 1120) {
-    buttonScrollRight.classList.add("info-list__button-right_disabled");
-  } else if (posX < 1120) {
-    buttonScrollRight.classList.remove("info-list__button-right_disabled");
+// функция активации/деактивации для секции "Журнал "Прожито""
+
+function addRemoveButtonsMediaNews() {
+  const posXMediaNews = scrollMediaNews.scrollLeft;
+
+  if (posXMediaNews >= 1) {
+    mediaButtonLeft.classList.add("info-list__button-left_active");
+  } else {
+    mediaButtonLeft.classList.remove("info-list__button-left_active");
+  }
+
+  if (posXMediaNews >= 1120) {
+    mediaButtonRight.classList.add("info-list__button-right_disabled");
+  } else if (posXMediaNews < 1120) {
+    mediaButtonRight.classList.remove("info-list__button-right_disabled");
   }
 }
 
-scrollingSection.addEventListener("scroll", addRemoveButtonLeft);
-scrollingSection.addEventListener("scroll", addRemoveButtonRight);
+scrollMediaNews.addEventListener("scroll", addRemoveButtonsMediaNews);
+
