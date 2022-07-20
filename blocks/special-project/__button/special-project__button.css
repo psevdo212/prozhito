@@ -27,3 +27,11 @@ margin: 0 auto;
       line-height: 18px;
     }
   }
+
+  @media (max-width: 750px) {
+    .special-project__button {
+      max-width: 335px;
+      height: 50px;
+      
+    }
+  }

@@ -5,3 +5,11 @@
     height: 12.02px;
 }
 
+@media (max-width: 750px) {
+    .special-project__button-icon {
+        margin-left: 14.67px;
+        width: 11.07px;
+        height: 8.01px;
+      
+    }
+  }
