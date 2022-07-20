@@ -13,9 +13,9 @@ buttonCloseBanner.addEventListener("click", closeBanner);
 
 // объявление переменных для скролла по кнопкам
 
+const scrollingSection = document.querySelector(".info-list__cards");
 const buttonScrollLeft = document.querySelector(".info-list__button-left");
 const buttonScrollRight = document.querySelector(".info-list__button-right");
-const scrollingSection = document.querySelector(".info-list__cards");
 
 // функция скролла по кнопкам
 
@@ -32,7 +32,7 @@ buttonScrollLeft.addEventListener("click", scrollToleft);
 
 // делаем правую/левую кнопку активной/неактивной
 
-scrollingSection.addEventListener("scroll", () => {
+function addRemoveButtonLeft() {
   const posX = scrollingSection.scrollLeft;
 
   if (posX >= 1) {
@@ -40,10 +40,17 @@ scrollingSection.addEventListener("scroll", () => {
   } else {
     buttonScrollLeft.classList.remove("info-list__button-left_active");
   }
+}
+
+function addRemoveButtonRight() {
+  const posX = scrollingSection.scrollLeft;
 
   if (posX >= 1120) {
     buttonScrollRight.classList.add("info-list__button-right_disabled");
   } else if (posX < 1120) {
     buttonScrollRight.classList.remove("info-list__button-right_disabled");
   }
-});
+}
+
+scrollingSection.addEventListener("scroll", addRemoveButtonLeft);
+scrollingSection.addEventListener("scroll", addRemoveButtonRight);
