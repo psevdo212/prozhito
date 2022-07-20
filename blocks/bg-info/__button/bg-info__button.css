@@ -3,12 +3,12 @@
   color: #fff;
   height: 50px;
   background-color: inherit;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 8px;
   margin: 0 0 32px 32px;
   padding-right: 43px;
   cursor: pointer;
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -17,7 +17,7 @@
 }
 
 .bg-info__button::after {
-  content: '';
+  content: "";
   background-image: url(../../../images/arrow_right_white.svg);
   position: absolute;
   width: 16px;

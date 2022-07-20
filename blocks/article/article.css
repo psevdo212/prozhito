@@ -1,7 +1,8 @@
 .article {
-  margin: 0 auto;
+  margin: 47px auto 71px;
   padding: 0;
   max-width: 910px;
+  overflow: hidden;
 }
 
 .article h2 {
@@ -15,10 +16,11 @@
   line-height: 18px;
   text-align: center;
   max-width: 676px;
+  word-spacing: 8px;
 }
 
 .article h3 {
-  margin: 0 auto 16px;
+  margin: 0 auto 14px;
   padding: 0;
   max-width: 674px;
   min-height: 55px;
@@ -31,7 +33,7 @@
 }
 
 .article h4 {
-  margin: 0 auto 28px;
+  margin: 0 auto;
   border-top: 1px solid #3a543e;
   padding: 32px 0 0 0;
   min-height: 26px;
@@ -58,31 +60,32 @@
   font-size: 18px;
   line-height: 30px;
   max-width: 678px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .article blockquote {
-  font-family: 'WF';
+  font-family: "WF";
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
   line-height: 100%;
-  border-left: 2px solid #3A543E;
-  padding-left: 16px;
+  border-left: 2px solid #3a543e;
+  padding-left: 15px;
   max-width: 678px;
-  margin: 32px auto;
+  margin: 0 auto 0 116px;
 }
 
 .article .image {
-  margin: 14px auto 82px;
-  background: #F7F4F0;
-  max-width: 910px;
-  height: 520px;
+  margin: 10px auto 82px;
+  background: #f7f4f0;
+  width: 100%;
+  height: 455px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-top: 72px;
 }
 
 .article .image img {
@@ -90,16 +93,16 @@
 }
 
 .article .image figcaption {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  padding-top: 50px;
-  position: absolute;
-  bottom: -50px;
+  position: relative;
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
-  max-width: 678px;
+  width: 61%;
+  padding-top: 52px;
+  left: 6%;
   padding-bottom: 16px;
 }
 
@@ -113,7 +116,7 @@
 .article div video {
   width: 678px;
   height: 379px;
-  background-color: #F7F4F0;
+  background-color: #f7f4f0;
   margin: auto;
 }
 
@@ -132,89 +135,76 @@
 }
 
 .article div p {
-  margin: 0 auto;
-  padding: 16px 0 16px 0;
-  font-family: 'PT Sans';
+  margin: 0 auto 0 232px;
+  padding: 16px 0 14px 0;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+  width: 60%;
 }
 
 .article .gallery figcaption {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  padding-top: 50px;
-  bottom: -50px;
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
-  width: 678px;
+  max-width: 678px;
   padding-bottom: 16px;
   justify-content: space-between;
   display: flex;
+  margin-left: 116px;
 }
 
 .article .gallery span {
   background-color: #fff;
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  margin-right: 29px;
+  margin-right: 30px;
 }
 
 .article .gallery {
   margin: 0;
-  overflow: hidden;
   position: relative;
-}
-
-.article .content {
-  width: 300%;
-  height: 100%;
-  display: flex;
   flex-direction: row;
-}
-
-.article .content .image {
-  width: 100%;
-}
-
-.article .content .image img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 300%;
 }
 
 .article .gallery button {
   background-image: url(../../images/arrow-right.svg);
-  background-color: inherit;
-  width: 20px;
-  height: 15px;
+  background-color: transparent;
+  width: 18px;
+  height: 10px;
   border: none;
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 0;
+  background-position: center;
   position: absolute;
   cursor: pointer;
   z-index: 1;
-  top: 400px;
-  left: 776px;
+  top: 388px;
+  left: 777px;
 }
 
-.article div div {
+.article div audio {
   width: 678px;
-  height: 112px;
-  background: #BFE9D5;
-  border-radius: 35px;
-  margin: 0 auto;
+  margin: 35px auto 23px;
+}
+
+.article .content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
   flex-direction: row;
-  background-image: url(../../images/audio.png);
+  margin: 32px auto 47px;
+}
+
+.article .content .image {
+  margin: 0 auto;
+  padding-top: 33px;
 }
