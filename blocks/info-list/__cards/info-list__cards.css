@@ -1,9 +1,31 @@
 .info-list__cards {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
   display: grid;
   grid-template-columns: repeat(6, 328px);
   list-style: none;
   text-decoration: none;
-  padding: 0;
+  padding: 0 0 70px 0;
   margin: 0;
   gap: 20px;
+}
+
+.media .info-list__cards {
+  padding: 0 0 47px 0;
+}
+
+.info-list__cards::-webkit-scrollbar {
+  height: 4px;
+  background-color: #E7E4DE;
+}
+
+.info-list__cards::-webkit-scrollbar-thumb {
+  height: 4px;
+  background-color: #323232
+}
+
+.info-list__cards::-webkit-scrollbar-track {
+  height: 4px;
+  background-color: #E7E4DE;
 }
