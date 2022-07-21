@@ -48,12 +48,16 @@ function countImages() {
 
   if (posXGallery <= 370) {
     counterGallery.textContent = "1 / 4";
+    galleryButtonLeft.style.display = "none";
   } else if (posXGallery >= 370 && posXGallery <= 740) {
     counterGallery.textContent = "2 / 4";
+    galleryButtonLeft.style.display = "block";
   } else if (posXGallery >= 740 && posXGallery <= 1480) {
     counterGallery.textContent = "3 / 4";
+    galleryButtonRight.style.display = "block";
   } else if (posXGallery >= 1480 && posXGallery <= 2220) {
     counterGallery.textContent = "4 / 4";
+    galleryButtonRight.style.display = "none";
   }
 }
 

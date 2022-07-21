@@ -190,6 +190,11 @@
   z-index: 1;
   top: 388px;
   left: 777px;
+  transition: 0.1s ease-out;
+}
+
+.article .gallery .gallery__button-right:hover {
+  opacity: 0.7;
 }
 
 .article .gallery .gallery__button-left {
@@ -206,6 +211,12 @@
   z-index: 1;
   top: 388px;
   left: 115px;
+  transition: 0.1s ease-out;
+  display: none;
+}
+
+.article .gallery .gallery__button-left:hover {
+  opacity: 0.7;
 }
 
 .article div audio {
