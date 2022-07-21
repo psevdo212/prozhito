@@ -194,7 +194,10 @@
           </p>
           <div>
             <audio controls>
-              <source src="https://oralhistory.ru/audio/1564_Rodoman.mp3" type="audio/mpeg">
+              <source
+                src="https://oralhistory.ru/audio/1564_Rodoman.mp3"
+                type="audio/mpeg"
+              />
             </audio>
             <p>Запись разговора Юры и&nbsp;Вени Аронвальда, 1937 год</p>
           </div>
@@ -217,11 +220,18 @@
             Я&nbsp;ушел.
           </p>
           <figure class="gallery">
-            <button></button>
-            <div class="content">
+            <button class="gallery__button-right"></button>
+            <button class="gallery__button-left"></button>
+            <div id="scrollGallery" class="content">
               <figure class="image">
                 <img
                   src="./images/Veni_Aronvald.png"
+                  alt="Рисунки из дневника Вени Аронвальда"
+                />
+              </figure>
+              <figure class="image">
+                <img
+                  src="./images/Yria_Benevolskyi.png"
                   alt="Рисунки из дневника Вени Аронвальда"
                 />
               </figure>
@@ -233,14 +243,14 @@
               </figure>
               <figure class="image">
                 <img
-                  src="./images/Veni_Aronvald.png"
+                  src="./images/Yria_Benevolskyi.png"
                   alt="Рисунки из дневника Вени Аронвальда"
                 />
               </figure>
             </div>
-            <figcaption>
+            <figcaption id="figcaptionGallery">
               Рисунки из&nbsp;дневника Вени Аронвальда, 1937 год
-              <span>1&nbsp;/&nbsp;4</span>
+              <span id="counterGallery">1 / 4</span>
             </figcaption>
           </figure>
           <p>

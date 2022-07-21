@@ -4,6 +4,7 @@
   background: #e7e4de;
   border-radius: 8px;
   color: #323232;
+  scroll-snap-align: start;
 }
 
 .experience-card::after {
