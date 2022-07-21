@@ -107,9 +107,7 @@
 }
 
 .article div {
-  margin: 32px auto;
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
   position: relative;
 }
 

@@ -24,6 +24,13 @@
 @import url(../blocks/sidebanner/_closed/sidebanner_closed.css);
 @import url(../blocks/structure/structure.css);
 @import url(../blocks/structure/__button/structure__button.css);
+@import url(../blocks/audioplayer/audioplayer.css);
+@import url(../blocks/audioplayer/__mute/audioplayer__mute.css);
+@import url(../blocks/audioplayer/__play/audioplayer__play.css);
+@import url(../blocks/audioplayer/__story/audioplayer__story.css);
+@import url(../blocks/audioplayer/__time/audioplayer__time.css);
+@import url(../blocks/audioplayer/__to-end/audioplayer__to-end.css);
+@import url(../blocks/audioplayer/__to-start/audioplayer__to-start.css);
 @import url(../blocks/article/article.css);
 @import url(../blocks/popup-structure/popup-structure.css);
 @import url(../blocks/popup-structure/__container/popup-structure__container.css);
