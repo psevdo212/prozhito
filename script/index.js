@@ -1,28 +1,21 @@
-// объявление переменных для закрытия баннера
-
+// переменные для закрытия баннера
 const banner = document.querySelector(".banner");
 const buttonCloseBanner = document.querySelector(".banner__close-button");
 
-// функция закрытия баннера
-
-function closeBanner() {
-  banner.classList.add("banner_closed");
-}
-
-buttonCloseBanner.addEventListener("click", closeBanner);
-
-// объявление переменных для скролла по кнопкам
-
+// переменные для скролла по кнопкам
 const scrollBgInfo = document.querySelector("#bgInfo");
 const bgInfoButtonLeft = document.querySelector("#bgInfoButtonLeft");
 const bgInfoButtonRight = document.querySelector("#bgInfoButtonRight");
-
 const scrollMediaNews = document.querySelector("#mediaNews");
 const mediaButtonLeft = document.querySelector("#mediaButtonLeft");
 const mediaButtonRight = document.querySelector("#mediaButtonRight");
 
-// функция скролла по кнопкам
+// функция закрытия баннера
+function closeBanner() {
+  banner.classList.add("banner_closed");
+}
 
+// функция скролла по кнопкам
 bgInfoButtonRight.addEventListener("click", () => {
   scrollBgInfo.scrollBy(348, 0);
 });
@@ -40,7 +33,6 @@ mediaButtonLeft.addEventListener("click", () => {
 });
 
 // функция активации/деактивации для секции "Новости и события"
-
 function addRemoveButtonsBgInfo() {
   const posXbgInfo = scrollBgInfo.scrollLeft;
 
@@ -57,10 +49,7 @@ function addRemoveButtonsBgInfo() {
   }
 }
 
-scrollBgInfo.addEventListener("scroll", addRemoveButtonsBgInfo);
-
 // функция активации/деактивации для секции "Журнал "Прожито""
-
 function addRemoveButtonsMediaNews() {
   const posXMediaNews = scrollMediaNews.scrollLeft;
 
@@ -77,5 +66,7 @@ function addRemoveButtonsMediaNews() {
   }
 }
 
+// Event listeners
+buttonCloseBanner.addEventListener("click", closeBanner);
+scrollBgInfo.addEventListener("scroll", addRemoveButtonsBgInfo);
 scrollMediaNews.addEventListener("scroll", addRemoveButtonsMediaNews);
-
