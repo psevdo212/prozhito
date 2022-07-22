@@ -86,7 +86,6 @@
 @import url(../blocks/search/__button/search__button.css);
 @import url(../blocks/search/__button/_type/search__button_type_submit.css);
 @import url(../blocks/search/__button/_type/search__button_type_to-material.css);
-@import url(../blocks/search/__link-button/search__link-button.css);
 @import url(../blocks/search/__button-arrow/search__button-arrow.css);
 @import url(../blocks/media/__magazine/media__magazine.css);
 @import url(../blocks/media/__scrollbar/media__scrollbar.css);
@@ -116,5 +115,5 @@
 @import url(../blocks/special-project/__text-content/special-project__text-content.css);
 @import url(../blocks/special-project/__title/special-project__title.css);
 @import url(../blocks/special-project/__button-icon/special-project__button-icon.css);
-@import url(../blocks/search/__banner/search__banner.css);/*блок search*/
+
 

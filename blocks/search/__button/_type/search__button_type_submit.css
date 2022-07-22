@@ -10,3 +10,9 @@
 .search__button_type_submit:active {
   background-color: #7a9f80;
 }
+
+@media screen and (max-width: 560px) {
+  .search__button_type_submit {
+    grid-area: submit-btn;
+  }
+}
