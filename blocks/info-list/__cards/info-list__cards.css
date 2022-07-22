@@ -9,6 +9,7 @@
   padding: 0 0 70px 0;
   margin: 0;
   gap: 20px;
+  scroll-behavior: smooth;
 }
 
 .media .info-list__cards {
