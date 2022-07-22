@@ -2,5 +2,6 @@
   margin-left: 20px;
   padding: 0;
   display: flex;
-  gap: 5px;
+  column-gap: 5px;
+  flex-wrap: wrap;
 }

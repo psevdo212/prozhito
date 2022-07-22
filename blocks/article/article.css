@@ -33,7 +33,7 @@
 }
 
 .article h4 {
-  margin: 0 auto;
+  margin: 0 auto 28px;
   border-top: 1px solid #3a543e;
   padding: 32px 0 0 0;
   min-height: 26px;
@@ -60,7 +60,7 @@
   font-size: 18px;
   line-height: 30px;
   max-width: 678px;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
 .article blockquote {
@@ -72,11 +72,11 @@
   border-left: 2px solid #3a543e;
   padding-left: 15px;
   max-width: 678px;
-  margin: 0 auto 0 116px;
+  margin: 32px auto;
 }
 
 .article .image {
-  margin: 10px auto 82px;
+  margin: 32px auto 82px;
   background: #f7f4f0;
   width: 100%;
   height: 455px;
@@ -86,6 +86,7 @@
   justify-content: center;
   position: relative;
   padding-top: 72px;
+  scroll-snap-align: center;
 }
 
 .article .image img {
@@ -104,10 +105,11 @@
   padding-top: 52px;
   left: 6%;
   padding-bottom: 16px;
+  margin: 0 auto 0 171px;
 }
 
 .article div {
-  margin: 0 auto;
+  margin: 32px auto;
   position: relative;
   width: 678px;
 }
@@ -171,7 +173,7 @@
 }
 
 .article .gallery {
-  margin: 0;
+  margin: 32px auto;
   position: relative;
   flex-direction: row;
 }
@@ -211,6 +213,7 @@
   z-index: 1;
   top: 388px;
   left: 115px;
+  z-index: 1;
   transition: 0.1s ease-out;
   display: none;
 }
@@ -229,8 +232,8 @@
   flex-direction: row;
   width: 569px;
   column-gap: 171px;
-  margin: 32px auto 16px;
-  padding: 62px 170px 61px 171px;
+  margin: 0 auto 16px;
+  padding: 62px 170px 61px 170px;
   overflow-y: hidden;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
@@ -248,4 +251,162 @@
   padding: 0;
   background-color: #f7f4f0;
   scroll-snap-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .article .gallery .gallery__button-right {
+    left: 700px;
+  }
+
+  .article .gallery .gallery__button-left {
+    left: 50px;
+  }
+
+  .article .content {
+    padding: 62px 70px 61px 70px;
+    column-gap: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article {
+    margin: 27px auto 71px;
+  }
+
+  .article h2 {
+    margin: 0 auto 18px;
+  }
+
+  .article h3 {
+    max-width: 400px;
+    margin: 0 auto 10px;
+    font-size: 36px;
+  }
+
+  .article h4 {
+    margin: 0 auto 18px;
+    padding: 26px 0 0 0;
+    font-size: 18px;
+    max-width: 400px;
+  }
+
+  .article p {
+    font-size: 14px;
+    max-width: 478px;
+    line-height: 25px;
+  }
+
+  .article blockquote {
+    font-size: 18px;
+    max-width: 478px;
+  }
+
+  .article .image figcaption {
+    font-size: 10px;
+    margin: 0 auto 0 121px;
+  }
+
+  .article div {
+    width: 478px;
+  }
+
+  .article div {
+    width: 478px;
+  }
+
+  .article div video {
+    width: 478px;
+    height: 267px;
+  }
+
+  .article div button {
+    width: 80px;
+    height: 80px;
+    top: 30%;
+  }
+
+  .article div p {
+    font-size: 10px;
+  }
+
+  .article .image img {
+    opacity: 0.9;
+    max-width: 378px;
+    max-height: 306px;
+  }
+
+  .article .content {
+    width: 378px;
+    padding: 0px 91px 0px 91px;
+    column-gap: 91px;
+  }
+
+  .article .gallery .gallery__button-right {
+    top: 290px;
+    left: 490px;
+  }
+
+  .article .gallery .gallery__button-left {
+    top: 290px;
+    left: 50px;
+  }
+
+  .article .image {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .article p {
+    font-size: 14px;
+    max-width: 240px;
+    line-height: 25px;
+  }
+
+  .article blockquote {
+    font-size: 18px;
+    max-width: 240px;
+  }
+
+  .article div {
+    width: 240px;
+  }
+
+  .article div video {
+    width: 240px;
+    height: 133px;
+  }
+
+  .article div button {
+    width: 40px;
+    height: 40px;
+    top: 25%;
+  }
+
+  .article div p {
+    font-size: 10px;
+    width: 320px;
+    margin: 0 auto 0 40px;
+  }
+
+  .article .image img {
+    opacity: 0.9;
+    max-width: 220px;
+    max-height: 240px;
+  }
+
+  .article .content {
+    width: 220px;
+    padding: 0px 50px 0px 50px;
+    column-gap: 50px;
+  }
+
+  .article .gallery figcaption {
+    font-size: 10px;
+    margin-left: 37px;
+}
+
+.article .gallery span {
+  font-size: 10px;
+}
 }
