@@ -1,9 +1,10 @@
 .search__title {
   grid-area: heading;
   font-size: 36px;
-  line-height: 1.0;
   font-family: 'WF';
   font-weight: 400;
+  line-height: 1;
+  font-family: "WF";
   margin: 0;
 }
 

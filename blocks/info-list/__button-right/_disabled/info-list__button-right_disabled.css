@@ -1,3 +1,4 @@
-.info-list__button_type_right {
+.info-list__button-right_disabled {
   background-image: url(../../../../images/right_default_circle.svg);
+  opacity: 0.5;
 }
