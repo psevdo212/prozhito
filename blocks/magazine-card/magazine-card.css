@@ -1,6 +1,6 @@
 .magazine-card {
-  width: 328px;
-  height: 526px;
+  width: 22.78vw;
+  height: 36.53vw;
   background: #c4c4c4;
   border-radius: 8px;
   display: flex;
@@ -19,4 +19,21 @@
     width: 180px;
     height: 280px;
   }
+}
+
+@media screen and (max-width: 360px) {
+  .magazine-card{
+    height: 352px;
+    width: 252px;
+    border-radius: 8px;
+  }
+
+  .magazine-card:first-child {
+    z-index: 2;
+  }
+
+  .magazine-card:nth-child(2) {
+    z-index: 1;
+  }
+
 }

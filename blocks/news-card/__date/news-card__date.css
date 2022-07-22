@@ -10,9 +10,16 @@
 
 @media screen and (max-width: 768px) {
   .news-card__date {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 1.56vw;
+    line-height: 2.08vw;
     max-width: 66px;
     margin: 0 0 4px 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .news-card__date {
+    font-size: 12px;
+    line-height: 16px;
   }
 }

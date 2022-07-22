@@ -4,16 +4,26 @@
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 1.39vw;
+  line-height: 1.81vw;
   margin: 0;
   color: rgba(50, 50, 50, 0.6);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
 }
 
 @media screen and (max-width: 768px) {
   .news-card__text {
+    font-size: 1.82vw;
+    line-height: 2.34vw;
+    color: #323232;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .news-card__text {
     font-size: 14px;
     line-height: 18px;
-    color: #323232;
   }
 }

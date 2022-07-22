@@ -2,7 +2,7 @@
   font-family: 'WF';
   font-style: normal;
   font-weight: 400;
-  font-size: 46px;
+  font-size: 3.19vw;
   line-height: 120%;
   color: #323232;
   margin: 16px 0 24px 0;
@@ -10,8 +10,8 @@
 
 @media screen and (max-width: 768px) {
   .info-list__title {
-    font-size: 30px;
-    line-height: 37px;
-    margin: 16px 0 16px 0;
+    font-size: 3.91vw;
+    line-height: 4.82vw;
+    margin: 2.08vw 0 2.08vw 0;
   }
 }

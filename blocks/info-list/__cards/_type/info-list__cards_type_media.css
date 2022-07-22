@@ -1,8 +1,14 @@
-.info-list__cards_type_media {
-}
+.info-list__cards_type_media {}
 
 @media screen and (max-width: 768px) {
   .info-list__cards_type_media {
     gap: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .info-list__cards_type_media {
+    grid-template-rows: 352px;
+    grid-template-columns: repeat(6, 23.44vw);
   }
 }

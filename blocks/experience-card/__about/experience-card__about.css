@@ -2,14 +2,17 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 0.97vw;
+  line-height: 1.25vw;
   text-align: center;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal; */
 }
 
 @media screen and (max-width: 768px) {
   .experience-card__about {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 1.56vw;
+    line-height: 2.08vw;
   }
 }

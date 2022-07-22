@@ -1,6 +1,6 @@
-.media__title {
+/* .media__title {
   max-width: 477px;
-  line-height: 55px;
+  line-height: 3.82vw;
   padding-right: 0;
 }
 
@@ -12,8 +12,14 @@
 
 @media screen and (max-width: 768px) {
   .media__title {
-    font-size: 30px;
-    line-height: 37px;
-    padding-right: 88px;
+    font-size: 3.91vw;
+    line-height: 4.82vw;
+    padding-right: 11.46vw;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .media__title {
+    font-size: none;
+  }
+} */

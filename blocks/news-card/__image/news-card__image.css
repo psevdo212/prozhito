@@ -2,12 +2,23 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  max-height: 223px;
 }
+
+@media screen and (max-width: 1300px) {
+  .news-card__image {
+    width: 14.72vw;
+    height: 100%;
+    object-fit: cover;
+    max-height: 223px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .news-card__image {
-    max-width: 102px;
-    height: 120px;
+    max-width: 13.28vw;
+    height: 15.63vw;
   }
 }
 

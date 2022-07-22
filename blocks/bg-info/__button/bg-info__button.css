@@ -48,6 +48,12 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .bg-info__button {
+    padding-right: 35px;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .bg-info__button {
     font-size: 14px;
@@ -55,6 +61,7 @@
     color: #323232;
     margin: 0;
     height: max-content;
+    position: relative;
   }
 
   .bg-info__button::after {
