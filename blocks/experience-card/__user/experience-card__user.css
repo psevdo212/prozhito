@@ -1,3 +1,9 @@
 .experience-card__user {
-  margin: 32px 15.5px 72px;
+  margin: 2.22vw 1.11vw 5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .experience-card__user {
+    margin: 1.56vw auto 0.52vw;
+  }
 }

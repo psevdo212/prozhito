@@ -1,9 +1,17 @@
 .magazine-card__title {
   font-size: 26px;
-  font-family: "WF";
+  font-family: 'WF';
   line-height: 100%;
   font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .magazine-card__title {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0;
+  }
 }
