@@ -35,27 +35,27 @@ function openPopupStructure() {
 
 // функция скролла галереи по кнопкам
 galleryButtonRight.addEventListener("click", () => {
-  scrollGallery.scrollBy(739, 0);
+  scrollGallery.scrollBy(740, 0);
 });
 
 galleryButtonLeft.addEventListener("click", () => {
-  scrollGallery.scrollBy(-739, 0);
+  scrollGallery.scrollBy(-740, 0);
 });
 
 // функция счетчика слайдов
 function countImages() {
   const posXGallery = scrollGallery.scrollLeft;
 
-  if (posXGallery <= 370) {
+  if (posXGallery <= 700) {
     counterGallery.textContent = "1 / 4";
     galleryButtonLeft.style.display = "none";
-  } else if (posXGallery >= 370 && posXGallery <= 740) {
+  } else if (posXGallery >= 700 && posXGallery <= 1440) {
     counterGallery.textContent = "2 / 4";
     galleryButtonLeft.style.display = "block";
-  } else if (posXGallery >= 740 && posXGallery <= 1480) {
+  } else if (posXGallery >= 1440 && posXGallery <= 2180) {
     counterGallery.textContent = "3 / 4";
     galleryButtonRight.style.display = "block";
-  } else if (posXGallery >= 1480 && posXGallery <= 2220) {
+  } else if (posXGallery >= 2180 && posXGallery <= 2760) {
     counterGallery.textContent = "4 / 4";
     galleryButtonRight.style.display = "none";
   }

@@ -33,7 +33,7 @@
 }
 
 .article h4 {
-  margin: 0 auto;
+  margin: 0 auto 28px;
   border-top: 1px solid #3a543e;
   padding: 32px 0 0 0;
   min-height: 26px;
@@ -60,7 +60,7 @@
   font-size: 18px;
   line-height: 30px;
   max-width: 678px;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
 .article blockquote {
@@ -72,24 +72,21 @@
   border-left: 2px solid #3a543e;
   padding-left: 15px;
   max-width: 678px;
-  margin: 0 auto 0 116px;
+  margin: 32px auto;
 }
 
 .article .image {
-  margin: 10px auto 82px;
+  margin: 32px auto 82px;
   background: #f7f4f0;
-  width: 100%;
-  height: 455px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 910px;
+  height: 520px;
   position: relative;
-  padding-top: 72px;
+  text-align: center;
 }
 
 .article .image img {
   opacity: 0.9;
+  margin: 23px auto 52px;
 }
 
 .article .image figcaption {
@@ -100,32 +97,35 @@
   line-height: 18px;
   position: relative;
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
-  width: 61%;
-  padding-top: 52px;
+  max-width: 540px;
   left: 6%;
   padding-bottom: 16px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .article div {
-  margin: 0 auto;
+  margin: 32px auto;
   position: relative;
+  width: 678px;
 }
 
 .article div video {
   width: 678px;
   height: 379px;
-  background-color: #f7f4f0;
-  margin: auto;
+  background-color: #e7e4de;
+  margin: 0 auto;
 }
 
 .article div button {
   background-image: url(../../images/play.png);
   background-size: contain;
+  background-color: #e7e4de;
   width: 110px;
   height: 110px;
   position: absolute;
   top: 32%;
-  right: 44%;
+  right: 40%;
   z-index: 1;
   border: none;
   cursor: pointer;
@@ -133,7 +133,7 @@
 }
 
 .article div p {
-  margin: 0 auto 0 232px;
+  margin: 0 auto 0 116px;
   padding: 16px 0 14px 0;
   font-family: "PT Sans";
   font-style: normal;
@@ -141,7 +141,7 @@
   font-size: 14px;
   line-height: 18px;
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
-  width: 60%;
+  max-width: 562px;
 }
 
 .article .gallery figcaption {
@@ -155,7 +155,7 @@
   padding-bottom: 16px;
   justify-content: space-between;
   display: flex;
-  margin-left: 116px;
+  margin: 0 auto;
 }
 
 .article .gallery span {
@@ -169,9 +169,11 @@
 }
 
 .article .gallery {
-  margin: 0;
+  margin: 32px auto 100px;
   position: relative;
   flex-direction: row;
+  max-width: 910px;
+  max-height: 520px;
 }
 
 .article .gallery .gallery__button-right {
@@ -187,7 +189,7 @@
   cursor: pointer;
   z-index: 1;
   top: 388px;
-  left: 777px;
+  right: 116px;
   transition: 0.1s ease-out;
 }
 
@@ -208,7 +210,8 @@
   cursor: pointer;
   z-index: 1;
   top: 388px;
-  left: 115px;
+  left: 116px;
+  z-index: 1;
   transition: 0.1s ease-out;
   display: none;
 }
@@ -227,11 +230,12 @@
   flex-direction: row;
   width: 569px;
   column-gap: 171px;
-  margin: 32px auto 16px;
-  padding: 62px 170px 61px 171px;
+  margin: 0 auto 16px;
   overflow-y: hidden;
   overflow-x: scroll;
+  scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  padding: 40px 170px 61px 171px;
   background-color: #f7f4f0;
 }
 
@@ -246,4 +250,214 @@
   padding: 0;
   background-color: #f7f4f0;
   scroll-snap-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .article .content {
+    padding: 32px 100px 32px 100px;
+    max-width: 469px;
+    max-height: 361px;
+  }
+
+  .article .image {
+    max-width: 669px;
+    max-height: 420px;
+  }
+
+  .article .image img {
+    max-width: 469px;
+    max-height: 361px;
+  }
+
+  .article .gallery {
+    max-width: 669px;
+    max-height: 420px;
+  }
+
+  .article .gallery .gallery__button-right {
+    top: 320px;
+    right: 40px;
+  }
+
+  .article .gallery .gallery__button-left {
+    top: 320px;
+    left: 40px;
+  }
+
+  .article .image figcaption {
+    max-width: 570px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article {
+    margin: 27px auto 71px;
+  }
+
+  .article h2 {
+    margin: 0 auto 18px;
+  }
+
+  .article h3 {
+    max-width: 400px;
+    margin: 0 auto 10px;
+    font-size: 36px;
+  }
+
+  .article h4 {
+    margin: 0 auto 18px;
+    padding: 26px 0 0 0;
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  .article p {
+    font-size: 14px;
+    max-width: 478px;
+    line-height: 25px;
+  }
+
+  .article blockquote {
+    font-size: 18px;
+    max-width: 478px;
+  }
+
+  .article .image figcaption {
+    font-size: 10px;
+  }
+
+  .article div {
+    width: 478px;
+  }
+
+  .article div {
+    width: 478px;
+  }
+
+  .article div video {
+    width: 478px;
+    height: 267px;
+  }
+
+  .article div button {
+    width: 80px;
+    height: 80px;
+    top: 30%;
+  }
+
+  .article div p {
+    font-size: 10px;
+  }
+
+  .article .image img {
+    max-width: 278px;
+    max-height: 256px;
+  }
+
+  .article .content {
+    padding: 0px 100px 50px 100px;
+    max-width: 278px;
+    max-height: 194px;
+  }
+
+  .article .gallery .gallery__button-right {
+    top: 170px;
+    right: 40px;
+  }
+
+  .article .gallery .gallery__button-left {
+    top: 170px;
+    left: 40px;
+  }
+
+  .article .image {
+    max-width: 460px;
+    max-height: 320px;
+  }
+
+  .article .gallery {
+    max-width: 478px;
+    max-height: 220px;
+  }
+
+  .article .image figcaption {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .article p {
+    font-size: 14px;
+    max-width: 240px;
+    line-height: 25px;
+  }
+
+  .article blockquote {
+    font-size: 18px;
+    max-width: 240px;
+  }
+
+  .article div {
+    width: 240px;
+  }
+
+  .article div video {
+    width: 240px;
+    height: 133px;
+  }
+
+  .article div button {
+    width: 40px;
+    height: 40px;
+    top: 25%;
+  }
+
+  .article div p {
+    font-size: 10px;
+    margin: 0 auto 0 40px;
+  }
+
+  .article .image {
+    max-width: 280px;
+    max-height: 280px;
+  }
+
+  .article .image img {
+    max-width: 210px;
+    max-height: 235px;
+    margin: 23px auto 30px;
+  }
+
+  .article .content {
+    max-width: 220px;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .article .gallery figcaption {
+    font-size: 10px;
+  }
+
+  .article .gallery span {
+    font-size: 10px;
+  }
+
+  .article .image figcaption {
+    max-width: 245px;
+  }
+
+  .article .gallery {
+    max-width: 270px;
+    max-height: 220px;
+    margin: 32px auto 50px;
+  }
+
+  .article .gallery .gallery__button-right {
+    top: 135px;
+    right: 5px;
+  }
+
+  .article .gallery .gallery__button-left {
+    top: 135px;
+    left: 5px;
+  }
 }

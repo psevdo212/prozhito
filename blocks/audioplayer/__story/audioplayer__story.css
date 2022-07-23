@@ -1,3 +1,16 @@
 .audioplayer__story:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .audioplayer__story {
+    width: 252px;
+    height: 37px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+.audioplayer__story {
+  display: none;
+}
+}

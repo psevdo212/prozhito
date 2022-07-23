@@ -9,3 +9,10 @@
   font-size: 20px;
   line-height: 26px;
 }
+
+@media screen and (max-width: 560px) {
+  .sidebanner__text {
+    max-width: 240px;
+  }
+}
+
