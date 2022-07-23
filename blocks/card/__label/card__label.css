@@ -1,9 +1,9 @@
 .card__label {
-  font-family: "PT Sans";
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  background: #a5cdab;
+  background: #A5CDAB;
   border-radius: 8px;
   max-width: 187px;
   height: 34px;
@@ -13,4 +13,21 @@
   justify-content: center;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .card__label {
+    max-width: 134px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #323232;
+    max-height: 24px;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card__label {
+    max-width: 108px;
+  }
 }
