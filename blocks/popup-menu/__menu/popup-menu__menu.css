@@ -1,0 +1,8 @@
+.popup-menu__menu {
+  margin: 0 auto;
+  padding: 24px 0 24px 0;
+  max-width: 336px;
+  height: 158px;
+  border-top: 1px solid rgba(50, 50, 50, 0.3);
+  border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+}
