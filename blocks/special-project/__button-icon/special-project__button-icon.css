@@ -1,9 +1,8 @@
 .special-project__button-icon {
-    
     margin-left: 16px;
     width: 16.61px;
     height: 12.02px;
-}
+  }
 
 @media (max-width: 750px) {
     .special-project__button-icon {
@@ -13,3 +12,4 @@
       
     }
   }
+

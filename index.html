@@ -28,7 +28,7 @@
               <a
                 href="https://prozhito.org/page/archive"
                 target="_blank"
-                class="link header__menu-link"
+                class="link header__menu-link header__menu-link_main"
                 >Архив</a
               >
             </li>
@@ -36,7 +36,7 @@
               <a
                 href="https://prozhito.org/persons"
                 target="_blank"
-                class="link header__menu-link"
+                class="link header__menu-link header__menu-link_main"
                 >Корпус</a
               >
             </li>
@@ -44,32 +44,32 @@
               <a
                 href="#"
                 target="_blank"
-                class="link header__menu-link header__menu-link_active"
+                class="link header__menu-link header__menu-link_main header__menu-link_active"
                 >О&nbsp;проекте</a
               >
               <ul class="subheader header__menu-links">
                 <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
+                  <a href="#" target="_blank" class="link header__menu-link header__menu-link_main"
                     >О&nbsp;прожито</a
                   >
                 </li>
                 <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
+                  <a href="#" target="_blank" class="link header__menu-link header__menu-link_main"
                     >Как работать?</a
                   >
                 </li>
                 <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
+                  <a href="#" target="_blank" class="link header__menu-link header__menu-link_main"
                     >Медиа</a
                   >
                 </li>
                 <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
+                  <a href="#" target="_blank" class="link header__menu-link header__menu-link_main"
                     >Новости</a
                   >
                 </li>
                 <li class="header__item">
-                  <a href="#" target="_blank" class="link header__menu-link"
+                  <a href="#" target="_blank" class="link header__menu-link header__menu-link_main"
                     >Спецпроекты</a
                   >
                 </li>
@@ -188,14 +188,64 @@
               <h2 class="info-list__title">Свежее</h2>
               <div class="info-list__buttons">
                 <button
-                  class="info-list__button info-list__button_type_left"
+                  id="bgInfoButtonLeft"
+                  class="info-list__button info-list__button-left"
                 ></button>
                 <button
-                  class="info-list__button info-list__button_type_right"
+                  id="bgInfoButtonRight"
+                  class="info-list__button info-list__button-right"
                 ></button>
               </div>
             </div>
-            <ul class="info-list__cards">
+            <ul id="bgInfo" class="info-list__cards">
+              <li class="news-card">
+                <div class="news-card__label">
+                  <p class="news-card__date">27.01.2022</p>
+                  <p class="news-card__title">Спецпроект</p>
+                </div>
+                <img
+                  src="./images/book.png"
+                  alt="Закрытая книга"
+                  class="news-card__image"
+                />
+                <p class="news-card__text">
+                  В&nbsp;издательстве Европейского университета
+                  в&nbsp;Санкт-Петербурге вышла первая книга из&nbsp;серии
+                  &laquo;Библиотека Прожито. Блокада&raquo;
+                </p>
+              </li>
+              <li class="news-card">
+                <div class="news-card__label">
+                  <p class="news-card__date">27.01.2022</p>
+                  <p class="news-card__title"></p>
+                </div>
+                <img
+                  src="./images/documents.png"
+                  alt="Стопка книг"
+                  class="news-card__image"
+                />
+                <p class="news-card__text">
+                  Центр изучения эго-документов &laquo;Прожито&raquo; проведёт
+                  исследовательскую лабораторию, посвящённую работе
+                  с&nbsp;дембельскими альбомами
+                </p>
+              </li>
+              <li class="news-card">
+                <div class="news-card__label">
+                  <p class="news-card__date">27.01.2022</p>
+                  <p class="news-card__title">Лекция</p>
+                </div>
+                <img
+                  src="./images/documents.png"
+                  alt="стопка книг"
+                  class="news-card__image"
+                />
+                <p class="news-card__text">
+                  4&nbsp;октября на&nbsp;фестивале &laquo;Тверской
+                  переплёт&raquo; выступит Михаил Мельниченко&nbsp;&mdash;
+                  историк, директор Центра &laquo;Прожито&raquo; ЕУСПб
+                </p>
+              </li>
               <li class="news-card">
                 <div class="news-card__label">
                   <p class="news-card__date">27.01.2022</p>
@@ -245,9 +295,6 @@
                 </p>
               </li>
             </ul>
-            <div class="info-list__scrollbar">
-              <div class="info-list__scrollbar-track"></div>
-            </div>
           </div>
         </section>
         <section class="diary">
@@ -299,52 +346,30 @@
               </div>
             </li>
           </ul>
+          <div class="search__banner"></div>
         </section>
         <section class="search">
           <div class="search__container">
-            <img
-              src="./images/search_woman_69.png"
-              alt="Черно-белое фото женщины."
-              class="search__photo"
-            />
-            <div class="search__banner">
-              <h2 class="search__title">Ищем редактора для дневника</h2>
-              <div class="search__main-text">
-                <p class="search__paragraph">
-                  &laquo;Отец мой, Георгий Васильевич Антипов, из&nbsp;богатой
-                  семьи. У&nbsp;его отца и&nbsp;деда были участки леса, земли.
-                  Имел мой дед, Василий Кузьмич, лавку, в&nbsp;которой торговал
-                  бакалеей и&nbsp;красным товаром, и, конечно, занимался
-                  крестьянством, т.&nbsp;е. земледелием. Жили они богато. Дети
-                  у&nbsp;дедушки Василия были все грамотные, и&nbsp;земледелием
-                  занимались неохотно&raquo;.
-                </p>
-              </div>
-              <div class="search__button-container">
-                <div class="search__button search__button_type_to-material">
-                  <a
-                    href="./typicalPage.html"
-                    class="search__link-button"
-                    target="_blank"
-                    >Перейти к&nbsp;материалу
-                    <img
-                      class="search__button-arrow"
-                      src="./images/Arrow_srch_btn.svg"
-                      alt="#"
-                    />
-                  </a>
-                </div>
-                <div class="search__button search__button_type_submit">
-                  <a href="#" class="search__link-button" target="_blank"
-                    >Оставить заявку
-                    <img
-                      class="search__button-arrow"
-                      src="./images/Arrow_srch_btn.svg"
-                      alt="#"
-                    />
-                  </a>
-                </div>
-              </div>
+            <h2 class="search__title">Ищем редактора для&nbsp;дневника</h2>
+            <img src="./images/search_woman_69.png" alt="Черно-белое фото женщины." class="search__photo"/>
+            <div class="search__main-text">
+              <p class="search__paragraph">
+                &laquo;Отец мой, Георгий Васильевич Антипов, из&nbsp;богатой
+                семьи. У&nbsp;его отца и&nbsp;деда были участки леса, земли.
+                Имел мой дед, Василий Кузьмич, лавку, в&nbsp;которой торговал
+                бакалеей и&nbsp;красным товаром, и, конечно, занимался
+                крестьянством, т.&nbsp;е. земледелием. Жили они богато. Дети
+                у&nbsp;дедушки Василия были все грамотные, и&nbsp;земледелием
+                занимались неохотно&raquo;.
+              </p>
+            </div>
+            <div class="search__button-container">
+              <button type="submit" class="search__button search__button_type_to-material">Перейти к&nbsp;материалу
+                <img class="search__button-arrow" src="./images/Arrow_srch_btn.svg" alt="Стрелка."/>
+              </button>
+              <button type="submit" class="search__button search__button_type_submit">Оставить заявку
+                <img class="search__button-arrow" src="./images/Arrow_srch_btn.svg" alt="Стрелка."/>
+              </button>
             </div>
           </div>
         </section>
@@ -366,14 +391,62 @@
               <h2 class="info-list__title">Новые материалы</h2>
               <div class="info-list__buttons">
                 <button
-                  class="info-list__button info-list__button_type_left"
+                  id="mediaButtonLeft"
+                  class="info-list__button info-list__button-left"
                 ></button>
                 <button
-                  class="info-list__button info-list__button_type_right"
+                  id="mediaButtonRight"
+                  class="info-list__button info-list__button-right"
                 ></button>
               </div>
             </div>
-            <ul class="info-list__cards">
+            <ul id="mediaNews" class="info-list__cards">
+              <li
+                class="magazine-card magazine-card_stalin"
+                onclick="location.href='magazineProzhito.html'"
+              >
+                <p class="magazine-card__tag">Тематическая подборка</p>
+                <div class="magazine-card__about">
+                  <h3 class="magazine-card__title">Сталин умер</h3>
+                  <p class="magazine-card__subtitle">
+                    Что теперь будет?! Как нам жить без него?
+                  </p>
+                  <p class="magazine-card__text">
+                    Все газеты впервые опубликовали портреты т.Сталина
+                    и&nbsp;многочисленные статьи. В&nbsp;них т.Сталин именуется
+                    вождём мирового пролетариата.
+                  </p>
+                </div>
+              </li>
+              <li class="magazine-card magazine-card_blokada">
+                <p class="magazine-card__tag">Спецпроект</p>
+                <div class="magazine-card__about">
+                  <h3 class="magazine-card__title">Блокада</h3>
+                  <p class="magazine-card__subtitle">
+                    Исследование блокадных дневников
+                  </p>
+                  <p class="magazine-card__text">
+                    В&nbsp;условиях катастрофического голода, холода, вражеских
+                    бомбардировок и&nbsp;обстрелов сотни тысяч людей оказались
+                    заперты в&nbsp;городе. У&nbsp;многих из&nbsp;них был доступ
+                    к&nbsp;бумаге и&nbsp;чернилам, и&nbsp;некоторые начали вести
+                    дневники.
+                  </p>
+                </div>
+              </li>
+              <li class="experience-card">
+                <div class="experience-card__user">
+                  <h3 class="experience-card__title">
+                    Галина Зеленина о&nbsp;дневниках Леонида Липкина
+                  </h3>
+                  <div class="experience-card__photo"></div>
+                  <p class="experience-card__about">
+                    историк, доцент кафедры теологии иудаизма, библеистики
+                    и&nbsp;иудаики РГГУ и&nbsp;ст.&nbsp;н.&nbsp;с. ШАГИ РАНХиГС
+                  </p>
+                </div>
+                <p class="experience-card__description">ОПЫТ ЧИТАТЕЛЯ</p>
+              </li>
               <li
                 class="magazine-card magazine-card_stalin"
                 onclick="location.href='magazineProzhito.html'"
@@ -421,9 +494,6 @@
                 <p class="experience-card__description">ОПЫТ ЧИТАТЕЛЯ</p>
               </li>
             </ul>
-            <div class="info-list__scrollbar media__scrollbar">
-              <div class="info-list__scrollbar-track"></div>
-            </div>
           </div>
         </section>
         <section class="special-project">

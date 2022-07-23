@@ -4,7 +4,7 @@
   max-width: 122px;
   min-height: 26px;
   transform: rotate(-90deg);
-  position: fixed;
-  top: 389px;
-  left: 20px;
+  position: absolute;
+  top: 442px;
+  right: 1346px;
 }

@@ -1,4 +1,28 @@
 .search__photo {
+  grid-area: photo;
   max-width: 329px;
-  max-height: 440px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .search__photo {
+    max-width: 174px;
+    max-height: 259px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .search__photo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .search__photo {
+    max-width: 164px;
+    height: 258px;
+  }
 }

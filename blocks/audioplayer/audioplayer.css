@@ -1,0 +1,10 @@
+.article .audioplayer {
+  max-width: 678px;
+  height: 112px;
+  background-color: #BFE9D5;
+  border-radius: 35px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+}

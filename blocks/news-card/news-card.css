@@ -4,10 +4,11 @@
   grid-template-columns: 89px 212px;
   gap: 20px 28px;
   opacity: 1;
-  transition: opacity .4s ease;
+  transition: opacity 0.4s ease;
+  scroll-snap-align: start;
 }
 
 .news-card:hover {
   cursor: pointer;
-  opacity: .8;
+  opacity: 0.8;
 }

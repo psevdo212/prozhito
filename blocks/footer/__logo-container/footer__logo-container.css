@@ -1,6 +1,6 @@
 .footer__logo-container {
-    min-height: 28.72px;
-    display: flex;
-    flex-basis: 528px;
-    column-gap: 20px;
+  min-height: 28.72px;
+  display: flex;
+  flex-basis: 528px;
+  column-gap: 20px;
 }

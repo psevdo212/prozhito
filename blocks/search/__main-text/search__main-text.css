@@ -1,6 +1,36 @@
 .search__main-text {
+  grid-area: paragraph;
   font-size: 20px;
   line-height: 1.3;
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   margin: 32px 0 182px;
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .search__main-text {
+    margin-bottom: 105px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .search__main-text {
+    margin-bottom: 105px;
+    font-size: 1.95vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search__main-text {
+    font-size: 1.823vw;
+    margin: 12px 0 61px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .search__main-text {
+    font-size: 3.89vw;
+    margin: 0;
+  }
+}
+
+
