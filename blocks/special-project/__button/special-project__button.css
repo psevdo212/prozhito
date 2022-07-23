@@ -18,3 +18,20 @@
 .special-project__button:hover {
   background-color: #97ba9c;
 }
+
+  @media (max-width: 940px) {
+    .special-project__button {
+      width: 237px;
+      height: 48px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .special-project__button {
+      max-width: 335px;
+      height: 50px;
+      
+    }
+  }

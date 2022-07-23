@@ -6,3 +6,28 @@
   font-family: "WF";
   margin: 0 auto;
 }
+
+    @media (max-width: 940px) {
+        .special-project__title {
+            font-size: 30px;
+            line-height: 37px;
+
+        }
+      }
+
+      @media (max-width: 750px) {
+        .special-project__title {
+            font-size: 32px;
+            line-height: 120%;
+            
+
+        }
+      }
+
+      @media (max-width: 360px) {
+        .special-project__title {
+            margin: 0;
+
+        }
+      }
+
