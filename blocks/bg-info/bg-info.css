@@ -15,11 +15,18 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 560px) {
   .bg-info {
     width: max-content;
     height: 60px;
     background-color: #fff;
     margin-bottom: 16px;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .bg-info {
+    height: 60px;
   }
 }

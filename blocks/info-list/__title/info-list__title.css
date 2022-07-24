@@ -8,6 +8,13 @@
   margin: 16px 0 24px 0;
 }
 
+@media screen and (max-width: 1300px) {
+  .info-list__title {
+    font-size: 3.19vw;
+    line-height: 120%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .info-list__title {
     font-size: 3.91vw;

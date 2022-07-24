@@ -9,6 +9,12 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .info-list__header {
+    width: 98vw;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .info-list__header {
     display: none;
