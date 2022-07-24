@@ -2,3 +2,9 @@
   width: calc(100% - 33px * 2);
   margin: 0 auto 32px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 17px * 2);
+  }
+}

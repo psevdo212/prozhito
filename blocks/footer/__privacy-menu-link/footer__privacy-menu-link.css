@@ -10,3 +10,10 @@
 .footer__privacy-menu-link:hover {
   border-bottom: 1px solid #323232;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__privacy-menu-link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

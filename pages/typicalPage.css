@@ -52,6 +52,7 @@
 @import url(../blocks/footer/__social-media-link/footer__social-media-link.css);
 @import url(../blocks/footer/__social-media-links/footer__social-media-links.css);
 @import url(../blocks/footer/__social-media/footer__social-media.css);
+@import url(../blocks/footer/__social-media/_text-hidden/footer__social-media-link_text-hidden.css);
 @import url(../blocks/popup-menu/popup-menu.css);
 @import url(../blocks/popup-menu/_opened/popup-menu_opened.css);
 @import url(../blocks/popup-menu/__menu/popup-menu__menu.css);

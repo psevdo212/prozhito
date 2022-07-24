@@ -4,3 +4,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__social-menu {
+    flex-wrap: wrap;
+    row-gap: 36px;
+    column-gap: 20px;
+  }
+}
