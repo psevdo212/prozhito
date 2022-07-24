@@ -1,12 +1,12 @@
 .magazine-card {
-  width: 22.78vw;
-  height: 36.53vw;
+  width: 328px;
+  height: 526px;
   background: #c4c4c4;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: opacity .4s ease;
+  transition: opacity 0.4s ease;
 }
 
 .magazine-card:hover {
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 360px) {
-  .magazine-card{
+  .magazine-card {
     height: 352px;
     width: 252px;
     border-radius: 8px;
@@ -35,5 +35,4 @@
   .magazine-card:nth-child(2) {
     z-index: 1;
   }
-
 }

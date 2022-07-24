@@ -2,12 +2,9 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 0.97vw;
-  line-height: 1.25vw;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
-  /* overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal; */
 }
 
 @media screen and (max-width: 768px) {
