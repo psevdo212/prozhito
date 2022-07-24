@@ -1,7 +1,6 @@
 .info-list__header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -9,12 +8,6 @@
     width: 70vw;
   }
 }
-
-/* @media screen and (max-width: 768px) {
-  .info-list__header {
-    width: 100%;
-  }
-} */
 
 @media screen and (max-width: 360px) {
   .info-list__header {
