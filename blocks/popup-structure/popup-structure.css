@@ -9,4 +9,5 @@
   left: 0;
   background-color: #e7e4de;
   visibility: hidden;
+  z-index: 1;
 }

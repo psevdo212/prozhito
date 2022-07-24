@@ -3,9 +3,11 @@
   grid-template-columns: repeat(6, minmax(min-content, 328px));
   list-style: none;
   max-width: 100%;
-  padding: 0;
+  padding: 0 0 70px 0;
   margin: 0;
   gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 768px) {
@@ -21,4 +23,19 @@
     grid-template-columns: 336px;
     gap: 16px;
   }
+}
+
+.info-list__cards::-webkit-scrollbar {
+  height: 4px;
+  background-color: #E7E4DE;
+}
+
+.info-list__cards::-webkit-scrollbar-thumb {
+  height: 4px;
+  background-color: #323232
+}
+
+.info-list__cards::-webkit-scrollbar-track {
+  height: 4px;
+  background-color: #E7E4DE;
 }

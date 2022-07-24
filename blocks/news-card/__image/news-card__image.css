@@ -1,8 +1,7 @@
 .news-card__image {
-  width: 100%;
-  height: 100%;
+  width: 212px;
+  height: 223px;
   object-fit: cover;
-  max-height: 223px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -10,7 +9,6 @@
     width: 14.72vw;
     height: 100%;
     object-fit: cover;
-    max-height: 223px;
   }
 }
 
