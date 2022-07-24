@@ -1,8 +1,8 @@
 .experience-card__photo {
-  width: 14.17vw;
-  height: 14.17vw;
+  width: 204px;
+  height: 204px;
   border-radius: 50%;
-  margin: 1.39vw auto;
+  margin: 20px auto;
   background-image: url(../../../images/woman.png);
   background-size: contain;
   background-position: center;
