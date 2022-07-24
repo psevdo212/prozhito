@@ -1,5 +1,5 @@
 .card__text {
-  font-family: "PT Sans";
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10,4 +10,20 @@
   max-width: 296px;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .card__text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    max-width: 211px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }

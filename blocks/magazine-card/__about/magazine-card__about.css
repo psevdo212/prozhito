@@ -3,3 +3,9 @@
   padding: 0 16px 24px;
   color: #f5f5f5;
 }
+
+@media screen and (max-width: 768px) {
+  .magazine-card__about {
+    padding: 0 5px 12px 8px;
+  }
+}

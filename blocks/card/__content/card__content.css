@@ -4,4 +4,14 @@
   position: relative;
   bottom: 18px;
   height: 419px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .card__content {
+    max-height: 360px;
+    padding: 0;
+  }
 }

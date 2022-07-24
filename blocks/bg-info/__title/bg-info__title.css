@@ -1,10 +1,35 @@
 .bg-info__title {
-  font-family: "WF";
+  font-family: 'WF';
   font-style: normal;
   font-weight: 400;
   font-size: 46px;
   line-height: 100%;
-  color: #f5f5f5;
+  color: #F5F5F5;
   padding-right: 100px;
   margin: 16px 0 0 32px;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .bg-info__title {
+    font-size: 3.19vw
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-info__title {
+    font-size: 3.91vw;
+    line-height: 4.82vw;
+    margin: 16px 0 0 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bg-info__title {
+    font-size: 32px;
+    line-height: 38px;
+    color: #323232;
+    margin: 0 0 4px 0;
+    padding: 0;
+  }
 }

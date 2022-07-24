@@ -1,5 +1,25 @@
-.media__title {
-  max-width: 452px;
-  line-height: 120%;
+/* .media__title {
+  max-width: 477px;
+  line-height: 3.82vw;
   padding-right: 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .media__title {
+    padding-right: 81px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .media__title {
+    font-size: 3.91vw;
+    line-height: 4.82vw;
+    padding-right: 11.46vw;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .media__title {
+    font-size: none;
+  }
+} */

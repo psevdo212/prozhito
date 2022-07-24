@@ -4,3 +4,17 @@
   flex-direction: column;
   margin-left: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .info-list {
+    max-width: 515px;
+    margin-left: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .info-list {
+    max-width: 336px;
+    margin: 0;
+  }
+}

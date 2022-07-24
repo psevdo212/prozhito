@@ -1,9 +1,26 @@
 .magazine-card__text {
-  font-size: 14px;
-  font-family: "PT Sans";
-  line-height: 18px;
+  font-size: 0.97vw;
+  font-family: 'PT Sans';
+  line-height: 1.25vw;
   font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .magazine-card__text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .magazine-card__text {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
