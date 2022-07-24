@@ -9,3 +9,9 @@
   padding-left: 7px;
   font-family: 'PT Sans';
 }
+
+@media screen and (max-width: 768px) {
+  .news-page__pagination {
+    display: none;
+  }
+}

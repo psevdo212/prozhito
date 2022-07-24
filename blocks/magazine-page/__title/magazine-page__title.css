@@ -7,3 +7,10 @@
   line-height: 26px;
   color: #000;
 }
+
+@media screen and (max-width: 768px) {
+  .magazine-page__title {
+    font-size: 1.823vw;
+    padding-top: 20px;
+  }
+}
