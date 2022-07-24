@@ -7,9 +7,9 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 361px) and (max-width: 768px) {
   .experience-card__about {
-    font-size: 1.56vw;
-    line-height: 2.08vw;
+    font-size: 12px;
+    line-height: 16px;
   }
 }

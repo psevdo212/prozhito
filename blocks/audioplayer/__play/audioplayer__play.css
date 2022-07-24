@@ -3,12 +3,11 @@
 }
 
 @media screen and (max-width: 768px) {
-.audioplayer__play {
-  width: 18px;
-  height: 20px;
-}
+  .audioplayer__play {
+    width: 18px;
+    height: 20px;
+  }
 }
 
 @media screen and (max-width: 560px) {
-
 }

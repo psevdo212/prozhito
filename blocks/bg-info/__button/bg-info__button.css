@@ -6,7 +6,7 @@
   border-radius: 8px;
   padding-right: 64px;
   cursor: pointer;
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -18,7 +18,7 @@
 }
 
 .bg-info__button::after {
-  content: '';
+  content: "";
   background-image: url(../../../images/right_defautl_green.svg);
   position: absolute;
   width: 50px;
@@ -78,7 +78,6 @@
   }
 
   .bg-info__button::after {
-
     width: 21px;
     height: 12px;
     margin-left: 18px;

@@ -49,4 +49,3 @@ if (audio.readyState > 0) {
     displayDuration();
   });
 }
-
