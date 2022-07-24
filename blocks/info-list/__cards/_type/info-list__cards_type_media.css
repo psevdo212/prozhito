@@ -1,4 +1,6 @@
-.info-list__cards_type_media {}
+.info-list__cards_type_media {
+  padding: 0 0 47px 0;
+}
 
 @media screen and (max-width: 768px) {
   .info-list__cards_type_media {

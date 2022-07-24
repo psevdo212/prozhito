@@ -84,6 +84,7 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="header__button-menu"></button>
       </header>
       <main class="content">
         <section class="route">
@@ -271,6 +272,77 @@
             ></button>
           </div>
         </div>
+        <section class="popup-menu">
+          <div class="popup-menu__header">
+            <div class="popup-menu__logo-container">
+              <img
+                src="./images/logo_prozhito.svg"
+                alt="логотип Прожито"
+                class="logo"
+              />
+              <img
+                src="./images/logo_eur_university_spb.svg"
+                alt="логотип университета"
+                class="logo header__logo"
+              />
+            </div>
+            <button class="popup-menu__button-close"></button>
+          </div>
+          <nav class="popup-menu__menu">
+            <ul class="popup-menu__links">
+              <li class="popup-menu__item">
+                <a
+                  href="https://prozhito.org/page/archive"
+                  target="_blank"
+                  class="link popup-menu__link"
+                  >Архив</a
+                >
+              </li>
+              <li class="popup-menu__item">
+                <a
+                  href="https://prozhito.org/persons"
+                  target="_blank"
+                  class="link popup-menu__link"
+                  >Корпус</a
+                >
+              </li>
+              <li class="popup-menu__item">
+                <a href="#" target="_blank" class="link popup-menu__link"
+                  >О&nbsp;проекте</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="popup-menu__menu">
+            <ul class="popup-menu__links">
+              <li class="popup-menu__item">
+                <a href="#" target="_blank" class="link popup-menu__link"
+                  >О&nbsp;прожито</a
+                >
+              </li>
+              <li class="popup-menu__item">
+                <a href="#" target="_blank" class="link popup-menu__link"
+                  >Как работать?</a
+                >
+              </li>
+              <li class="popup-menu__item">
+                <a href="#" target="_blank" class="link popup-menu__link"
+                  >Медиа</a
+                >
+              </li>
+              <li class="popup-menu__item">
+                <a href="#" target="_blank" class="link popup-menu__link"
+                  >Новости</a
+                >
+              </li>
+              <li class="popup-menu__item">
+                <a href="#" target="_blank" class="link popup-menu__link"
+                  >Спецпроекты</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
       </main>
       <footer class="footer">
         <nav class="footer__menu">
@@ -317,8 +389,9 @@
                     src="./images/logo_telegram.svg"
                     alt="логотип Телеграм"
                     class="footer__social-media-icon"
-                  />
-                  Телеграм
+                  /><span class="footer__social-media-link_text-hidden">
+                    Телеграм</span
+                  >
                 </a>
               </li>
               <li class="footer__item">
@@ -331,8 +404,9 @@
                     src="./images/logo_vk.svg"
                     alt="логотип Вконтакте"
                     class="footer__social-media-icon"
-                  />
-                  Вконтакте
+                  /><span class="footer__social-media-link_text-hidden">
+                    Вконтакте</span
+                  >
                 </a>
               </li>
             </ul>
@@ -355,5 +429,6 @@
       </footer>
     </div>
     <script src="./script/index.js"></script>
+    <script src="./script/popup-menu.js"></script>
   </body>
 </html>

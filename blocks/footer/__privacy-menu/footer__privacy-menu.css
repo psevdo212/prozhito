@@ -3,3 +3,9 @@
   padding: 0;
   flex-basis: 325px;
 }
+
+@media screen and (max-width: 387px) {
+  .footer__privacy-menu {
+    order: 3;
+  }
+}

@@ -5,11 +5,13 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__logo-container/header__logo-container.css);
 @import url(../blocks/header/__menu-links/header__menu-links.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-link/_main/header__menu-link_main.css);
 @import url(../blocks/header/_subheader-opened/header_subheader-opened.css);
+@import url(../blocks/header/__button-menu/header__button-menu.css);
 @import url(../blocks/subheader/subheader.css);
 @import url(../blocks/background/background.css);
 @import url(../blocks/route/route.css);
@@ -29,6 +31,7 @@
 @import url(../blocks/footer/__social-media-link/footer__social-media-link.css);
 @import url(../blocks/footer/__social-media-links/footer__social-media-links.css);
 @import url(../blocks/footer/__social-media/footer__social-media.css);
+@import url(../blocks/footer/__social-media/_text-hidden/footer__social-media-link_text-hidden.css);
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__date/news-card__date.css);
 @import url(../blocks/news-card/__image/news-card__image.css);
@@ -46,3 +49,12 @@
 @import url(../blocks/news-page/__link/news-page__link.css);
 @import url(../blocks/news-page/__number/news-page__number.css);
 @import url(../blocks/news-page/__number/_active/news-page__number_active.css);
+@import url(../blocks/popup-menu/popup-menu.css);
+@import url(../blocks/popup-menu/_opened/popup-menu_opened.css);
+@import url(../blocks/popup-menu/__menu/popup-menu__menu.css);
+@import url(../blocks/popup-menu/__logo-container/popup-menu__logo-container.css);
+@import url(../blocks/popup-menu/__header/popup-menu__header.css);
+@import url(../blocks/popup-menu/__button-close/popup-menu__button-close.css);
+@import url(../blocks/popup-menu/__links/popup-menu__links.css);
+@import url(../blocks/popup-menu/__link/popup-menu__link.css);
+@import url(../blocks/popup-menu/__item/popup-menu__item.css);
