@@ -13,7 +13,7 @@
 @media screen and (max-width: 768px) {
   .info-list__cards {
     grid-template-columns: repeat(6, 23.44vw);
-
+    padding: 0 0 6.51vw 0;
   }
 }
 

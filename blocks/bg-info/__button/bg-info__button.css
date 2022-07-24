@@ -48,6 +48,21 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .bg-info__button {
+    position: relative;
+    color: #323232;
+    margin: 0;
+    left: 10px;
+  }
+
+  .bg-info__button::after {
+    background-image: url(../../../images/arrow-right.svg);
+    width: 21px;
+    height: 12px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .bg-info__button {
     padding-right: 35px;
@@ -58,14 +73,12 @@
   .bg-info__button {
     font-size: 14px;
     line-height: 18px;
-    color: #323232;
-    margin: 0;
     height: max-content;
-    position: relative;
+    left: 0;
   }
 
   .bg-info__button::after {
-    background-image: url(../../../images/arrow-right.svg);
+
     width: 21px;
     height: 12px;
     margin-left: 18px;

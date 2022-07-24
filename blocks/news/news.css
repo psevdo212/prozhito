@@ -6,11 +6,18 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 560px) {
+  .news {
+    max-width: fit-content;
+    flex-direction: column;
+    max-height: 846px;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .news {
     max-width: 336px;
     margin: 0 12px;
-    flex-direction: column;
     max-height: 846px;
   }
 }
