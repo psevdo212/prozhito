@@ -17,5 +17,7 @@
 @media screen and (max-width: 768px) {
   .header__menu-link {
     padding: 16px 10px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
