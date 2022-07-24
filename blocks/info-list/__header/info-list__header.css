@@ -10,11 +10,11 @@
   }
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 560px) {
   .info-list__header {
-    width: 100%;
+    width: 98vw;
   }
-} */
+}
 
 @media screen and (max-width: 360px) {
   .info-list__header {

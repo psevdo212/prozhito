@@ -24,11 +24,16 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .bg-info__title {
+    color: #323232;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .bg-info__title {
     font-size: 32px;
     line-height: 38px;
-    color: #323232;
     margin: 0 0 4px 0;
     padding: 0;
   }
