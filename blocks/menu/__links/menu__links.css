@@ -1,9 +1,22 @@
 .menu__links {
-  margin: 0 auto 32px;
+  margin: 0 32px 32px 32px;
   padding: 0;
   max-width: 500px;
-  min-height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .menu__links {
+    max-width: 306px;
+    margin: 0 28px 28px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .menu__links{
+    margin: 12px;
+  }
+}
+
