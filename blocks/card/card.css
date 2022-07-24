@@ -8,7 +8,6 @@
   opacity: 0.8;
 }
 
-
 @media screen and (max-width: 768px) {
   .card {
     max-width: 238px;

@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 560px) {
-.audioplayer__story {
-  display: none;
-}
+  .audioplayer__story {
+    display: none;
+  }
 }

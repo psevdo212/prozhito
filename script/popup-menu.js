@@ -26,4 +26,4 @@ function someFunc() {
 // Event listeners
 buttonPopupMenu.addEventListener("click", openPopupMenu);
 buttonClosePopupMenu.addEventListener("click", ClosePopupMenu);
-window.addEventListener("resize", someFunc)
+window.addEventListener("resize", someFunc);

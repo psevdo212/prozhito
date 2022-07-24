@@ -9,7 +9,7 @@
 .experience-card::after {
   background-color: #e7e4de;
   opacity: 1;
-  transition: opacity .4s ease;
+  transition: opacity 0.4s ease;
 }
 
 .experience-card:hover {
@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 361px) and (max-width: 768px) {
   .experience-card {
     width: 180px;
     height: 280px;
