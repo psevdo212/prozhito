@@ -2,9 +2,25 @@
   margin: 0 auto;
   padding-bottom: 163px;
   max-width: 1144px;
-  min-height: 562px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(336px, 562px));
-  column-gap: 20px;
-  row-gap: 15px;
+  /* grid-template-columns: repeat(auto-fit, minmax(336px, 562px)); */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px){
+  .menu__cards {
+    max-width: 736px;
+    gap: 24px 12px;
+    padding-bottom: 36px;
+  }
+}
+
+@media screen and (max-width: 560px){
+  .menu__cards {
+    max-height: 754px;
+    gap: 12px;
+    grid-template-columns: 1fr;
+    padding-bottom: 96px;
+  }
 }

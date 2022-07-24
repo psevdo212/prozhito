@@ -2,6 +2,18 @@
   margin: 0;
   padding: 0;
   max-width: 562px;
-  min-height: 276px;
   border: 1px solid rgba(50, 50, 50, 0.3);
+}
+
+@media screen and (max-width: 768px){
+  .menu__card {
+  }
+}
+
+@media screen and (max-width: 560px){
+  .menu__card {
+    max-width: 336px;
+    margin: 0 auto;
+    /* max-height: 184px; */
+  }
 }
