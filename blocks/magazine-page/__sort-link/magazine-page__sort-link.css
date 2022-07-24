@@ -22,3 +22,11 @@
 .magazine-page__sort-link:last-of-type {
   margin-left: 46px;
 }
+
+@media screen and (max-width: 768px) {
+  .magazine-page__sort-link {
+    font-size: 1.563vw;
+    padding-top: 2.25%;
+    padding-bottom: 2.89%;
+  }
+}

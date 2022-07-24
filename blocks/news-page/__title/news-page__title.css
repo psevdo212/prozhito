@@ -5,3 +5,9 @@
   margin: 0;
   padding-top: 42px;
 }
+
+@media screen and (max-width: 768px) {
+  .news-page__title {
+    font-size: 3.907vw;
+  }
+}
