@@ -59,9 +59,7 @@
 @import url(../blocks/news-page/__title/news-page__title.css);
 @import url(../blocks/magazine-page/__title/magazine-page__title.css);
 @import url(../blocks/magazine-page/__sort-container/magazine-page__sort-container.css);
-@import url(../blocks/magazine-page/__sort-links/magazine-page__sort-links.css);
 @import url(../blocks/news-page/__cards/_magazine/news-page__cards_magazine.css);
-@import url(../blocks/magazine-page/__sort-links/_active/magazine-page__links_active.css);
 @import url(../blocks/magazine-page/__sort-link/magazine-page__sort-link.css);
 @import url(../blocks/magazine-page/__sort-link/_active/magazine-page__sortlink_active.css);
 @import url(../blocks/news-page/__cards/_magazine/news-page__cards_magazine.css);

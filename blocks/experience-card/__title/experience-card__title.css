@@ -7,3 +7,10 @@
   text-align: center;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .experience-card__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

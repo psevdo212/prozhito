@@ -6,3 +6,38 @@
   padding: 0 0 58px 0;
   list-style: none;
 }
+
+@media screen and (max-width: 1000px) {
+  .cards div:nth-child(2) {
+    margin: 0 10px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .cards{
+    max-width: 734px;
+    margin: 17px auto 0;
+    padding: 0 0 32px 0;
+  }
+  .cards div:nth-child(2) {
+    margin: 0 ;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cards{
+    max-width: 852px;
+    overflow: hidden;
+    margin: 24px 0 0 29px;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .cards{
+  max-width: 852px;
+  overflow: hidden;
+  margin: 24px 0 0 29px;
+  }
+}

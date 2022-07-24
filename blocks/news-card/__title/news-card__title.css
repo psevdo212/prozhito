@@ -1,8 +1,22 @@
 .news-card__title {
-  font-family: "PT Sans";
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .news-card__title {
+    font-size: 1.56vw;
+    line-height: 2.08vw;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .news-card__title {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }

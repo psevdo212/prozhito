@@ -7,3 +7,16 @@
   margin: 0;
   padding: 12px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .magazine-card__subtitle {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .magazine-card__subtitle {
+    padding: 11px 0;
+  }
+}

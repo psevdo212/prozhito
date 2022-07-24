@@ -6,3 +6,10 @@
   line-height: 18px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .experience-card__about {
+    font-size: 1.56vw;
+    line-height: 2.08vw;
+  }
+}

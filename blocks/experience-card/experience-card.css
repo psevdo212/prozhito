@@ -4,16 +4,22 @@
   background: #e7e4de;
   border-radius: 8px;
   color: #323232;
-  scroll-snap-align: start;
 }
 
 .experience-card::after {
   background-color: #e7e4de;
   opacity: 1;
-  transition: opacity 0.4s ease;
+  transition: opacity .4s ease;
 }
 
 .experience-card:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .experience-card {
+    width: 180px;
+    height: 280px;
+  }
 }
