@@ -1,7 +1,7 @@
 .header {
   max-width: 1440px;
   min-height: 50px;
-  margin: 0 20px 0 20px;
+  margin: 0 auto;
   padding: 0;
   border-bottom: 1px solid rgba(50, 50, 50, 0.3);
   display: flex;

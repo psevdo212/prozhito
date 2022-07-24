@@ -1,7 +1,6 @@
 .info-list__header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
 @media screen and (max-width: 1300px) {
