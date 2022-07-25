@@ -24,6 +24,10 @@
     grid-template-columns: 336px;
     gap: 16px;
   }
+
+  .info-list__cards::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .info-list__cards::-webkit-scrollbar {

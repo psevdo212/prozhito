@@ -16,3 +16,11 @@
     margin: 4px auto;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .experience-card__photo {
+    width: 160px;
+    height: 160px;
+    margin: 12px auto;
+  }
+}

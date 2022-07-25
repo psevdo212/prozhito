@@ -21,10 +21,9 @@
   }
 }
 
-.magazine-card:first-child {
-  z-index: 2;
-}
-
-.magazine-card:nth-child(2) {
-  z-index: 1;
+@media screen and (max-width: 360px) {
+  .magazine-card {
+    width: 252px;
+    height: 352px;
+  }
 }

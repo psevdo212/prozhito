@@ -8,9 +8,10 @@
   margin: 0;
 }
 
-@media screen and (min-width: 361px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .experience-card__title {
     font-size: 18px;
     line-height: 22px;
+    margin-top: 12px;
   }
 }

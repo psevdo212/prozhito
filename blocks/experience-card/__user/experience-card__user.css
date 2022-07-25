@@ -7,3 +7,9 @@
     margin: 12px auto 4px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .experience-card__user {
+    margin: 0;
+  }
+}

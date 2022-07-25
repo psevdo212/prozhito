@@ -23,3 +23,10 @@
     height: 280px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .experience-card {
+    width: 252px;
+    height: 352px;
+  }
+}
