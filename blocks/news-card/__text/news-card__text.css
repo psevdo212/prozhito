@@ -1,6 +1,5 @@
 .news-card__text {
   grid-column: 1/-1;
-  min-height: 130px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
@@ -11,6 +10,21 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: normal;
+}
+
+@media screen and (max-width: 1300px) {
+  .news-card__text {
+    font-size: 1em;
+    line-height: 1.81vw;
+    color: #323232;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-card__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 @media screen and (max-width: 360px) {

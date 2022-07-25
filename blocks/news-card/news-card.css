@@ -12,6 +12,27 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 1300px) {
+  .news-card {
+    grid-template-columns: 6.18vw 14.72vw;
+    grid-template-rows: 15.49vw 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-card {
+    gap: 8px 12px;
+    grid-template-columns: 8.59vw 13.28vw;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .news-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr max-content;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .news-card {
     grid-template-columns: 336px;
