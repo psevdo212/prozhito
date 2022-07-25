@@ -1,28 +1,28 @@
 .special-project__card-date {
-    position: absolute;
-    top: 319px;
-    left: 244.73px;
-    margin: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    font-family: 'PT Sans';
+  position: absolute;
+  top: 319px;
+  left: 244.73px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: "PT Sans";
 }
 
 @media (max-width: 1100px) {
-    .special-project__card-date {
-        top: 326px;
-        left: 12px;
-        font-size: 12px;
-        line-height: 16px;
-    }
+  .special-project__card-date {
+    top: 326px;
+    left: 12px;
+    font-size: 12px;
+    line-height: 16px;
   }
+}
 
-  @media (max-width: 750px) {
-    .special-project__card-date {
-        top: 356px;
-        left: 8px;
-        font-size: 14px;
-        line-height: 18px;
-    }
+@media (max-width: 750px) {
+  .special-project__card-date {
+    top: 356px;
+    left: 8px;
+    font-size: 14px;
+    line-height: 18px;
   }
+}
