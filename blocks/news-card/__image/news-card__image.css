@@ -23,6 +23,7 @@
   .news-card__image {
    width: 100%;
    max-width: inherit;
+   height: 100%;
   }
 }
 

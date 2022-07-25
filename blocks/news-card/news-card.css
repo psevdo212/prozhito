@@ -29,7 +29,7 @@
 @media screen and (max-width: 560px) {
   .news-card {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr max-content;
+    grid-template-rows: 40px 154px max-content;
   }
 }
 
