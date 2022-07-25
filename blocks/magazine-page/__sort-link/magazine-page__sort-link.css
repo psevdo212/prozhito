@@ -23,10 +23,21 @@
   margin-left: 46px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 390px) and (max-width: 768px) {
   .magazine-page__sort-link {
     font-size: 1.563vw;
     padding-top: 2.25%;
     padding-bottom: 2.89%;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .magazine-page__sort-link {
+    font-size: 8px;
+    padding-top: 22px;
+  }
+
+  .magazine-page__sort-link:last-of-type {
+    margin-left: 0px;
   }
 }

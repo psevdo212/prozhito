@@ -2,9 +2,15 @@
   display: flex;
   justify-content: space-between;
   max-width: 1144px;
-  margin: 23px auto 0;
+  margin: 23px auto 75px;
   padding: 0 0 58px 0;
   list-style: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.cards::-webkit-scrollbar {
+  width: 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -13,31 +19,32 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
-  .cards{
+  .cards {
     max-width: 734px;
     margin: 17px auto 0;
-    padding: 0 0 32px 0;
+    padding: 0 0 24px 0;
   }
   .cards div:nth-child(2) {
-    margin: 0 ;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .cards{
+  .cards {
     max-width: 852px;
     overflow: hidden;
     margin: 24px 0 0 29px;
+    overflow-x: scroll;
   }
 }
 
-
 @media screen and (max-width: 360px) {
-  .cards{
-  max-width: 852px;
-  overflow: hidden;
-  margin: 24px 0 0 29px;
+  .cards {
+    max-width: 852px;
+    overflow: hidden;
+    margin: 24px auto 0;
+    overflow-x: scroll;
+    padding: 0 41px 24px;
   }
 }

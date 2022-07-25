@@ -1,5 +1,6 @@
 .news-card__text {
   grid-column: 1/-1;
+  min-height: 130px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
@@ -12,17 +13,10 @@
   white-space: normal;
 }
 
-@media screen and (max-width: 768px) {
-  .news-card__text {
-    font-size: 1.82vw;
-    line-height: 2.34vw;
-    color: #323232;
-  }
-}
-
 @media screen and (max-width: 360px) {
   .news-card__text {
     font-size: 14px;
     line-height: 18px;
+    min-height: 54px;
   }
 }

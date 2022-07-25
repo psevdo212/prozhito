@@ -10,6 +10,12 @@ const scrollMediaNews = document.querySelector("#mediaNews");
 const mediaButtonLeft = document.querySelector("#mediaButtonLeft");
 const mediaButtonRight = document.querySelector("#mediaButtonRight");
 
+// переменные для скролла diary
+const scrollDiary = document.querySelector(".cards");
+const firstImage = document.querySelector("#firstImage");
+const secondImage = document.querySelector("#secondImage");
+const thirdImage = document.querySelector("#thirdImage");
+
 // функция закрытия баннера
 function closeBanner() {
   banner.classList.add("banner_closed");
@@ -65,6 +71,28 @@ function addRemoveButtonsMediaNews() {
     mediaButtonRight.classList.remove("info-list__button-right_disabled");
   }
 }
+
+// функция скролла карточек diary
+firstImage.addEventListener("click", () => {
+  scrollDiary.scrollTo(0, 0);
+  firstImage.classList.add("diary__button-scroll-active");
+  secondImage.classList.remove("diary__button-scroll-active");
+  thirdImage.classList.remove("diary__button-scroll-active");
+});
+
+secondImage.addEventListener("click", () => {
+  scrollDiary.scrollTo(300, 0);
+  firstImage.classList.remove("diary__button-scroll-active");
+  secondImage.classList.add("diary__button-scroll-active");
+  thirdImage.classList.remove("diary__button-scroll-active");
+});
+
+thirdImage.addEventListener("click", () => {
+  scrollDiary.scrollTo(600, 0);
+  firstImage.classList.remove("diary__button-scroll-active");
+  secondImage.classList.remove("diary__button-scroll-active");
+  thirdImage.classList.add("diary__button-scroll-active");
+});
 
 // Event listeners
 buttonCloseBanner.addEventListener("click", closeBanner);

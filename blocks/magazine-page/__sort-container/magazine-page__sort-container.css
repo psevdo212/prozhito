@@ -5,3 +5,9 @@
   column-gap: 38px;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 389px) {
+  .magazine-page__sort-container {
+    column-gap: 10px;
+  }
+}

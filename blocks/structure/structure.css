@@ -7,19 +7,11 @@
   position: fixed;
   top: 442px;
   left: -20px;
-  z-index: 6;
+  z-index: 5;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .structure {
     left: -20px;
   }
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 560px) {
-
 }

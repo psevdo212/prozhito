@@ -1,6 +1,6 @@
 .article .audioplayer__time {
-  font-family: 'PT Sans';
-  background-color: #BFE9D5;
+  font-family: "PT Sans";
+  background-color: #bfe9d5;
 }
 
 @media screen and (max-width: 768px) {
@@ -8,8 +8,7 @@
     width: 35px;
     height: 13px;
   }
-  }
+}
 
-  @media screen and (max-width: 560px) {
-
-  }
+@media screen and (max-width: 560px) {
+}

@@ -4,12 +4,12 @@
 
 @media screen and (max-width: 768px) {
   .header__menu {
-    margin-right: 16px
+    margin-right: 16px;
   }
 }
 
 @media screen and (max-width: 640px) {
   .header__menu {
-  display: none;
+    display: none;
   }
 }

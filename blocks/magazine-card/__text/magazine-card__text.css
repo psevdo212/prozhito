@@ -11,7 +11,7 @@
   white-space: normal;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 361px) and (max-width: 768px) {
   .magazine-card__text {
     display: none;
   }

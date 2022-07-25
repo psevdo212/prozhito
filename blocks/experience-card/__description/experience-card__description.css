@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 361px) and (max-width: 768px) {
   .experience-card__description {
     font-size: 12px;
     line-height: 16px;

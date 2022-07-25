@@ -1,28 +1,15 @@
 .news-card {
   max-width: 328px;
   display: grid;
-  grid-template-columns:  89px 212px;
+  grid-template-columns: 89px 212px;
   gap: 20px 28px;
   opacity: 1;
-  transition: opacity .4s ease;
+  transition: opacity 0.4s ease;
 }
 
 .news-card:hover {
   cursor: pointer;
-  opacity: .8;
-}
-
-@media screen and (max-width: 1300px) {
-  .news-card {
-    grid-template-columns:  6.18vw 14.72vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .news-card {
-    gap: 8px 12px;
-    grid-template-columns: 8.59vw 13.28vw;
-  }
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 360px) {

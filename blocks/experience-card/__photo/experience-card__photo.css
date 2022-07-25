@@ -9,10 +9,10 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 361px) and (max-width: 768px) {
   .experience-card__photo {
-    width: 10.94vw;
-    height: 10.94vw;
-    margin: 0.52vw auto;
+    width: 86px;
+    height: 86px;
+    margin: 4px auto;
   }
 }

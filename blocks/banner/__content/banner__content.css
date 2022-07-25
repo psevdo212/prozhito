@@ -10,13 +10,13 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .banner__content {
     max-width: 191px;
   }
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 560px) {
   .banner__content {
     max-width: 157px;
   }

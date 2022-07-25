@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 360px) {
   .media__title {
-    font-size: none;
+    font-size: 32px;
+    line-height: 120%;
   }
 }

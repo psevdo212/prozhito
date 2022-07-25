@@ -362,7 +362,23 @@
               </div>
             </li>
           </ul>
-          <div class="search__banner"></div>
+          <div class="diary__scroll">
+            <button
+              id="firstImage"
+              type="button"
+              class="diary__button-scroll diary__button-scroll-active"
+            ></button>
+            <button
+              id="secondImage"
+              type="button"
+              class="diary__button-scroll"
+            ></button>
+            <button
+              id="thirdImage"
+              type="button"
+              class="diary__button-scroll"
+            ></button>
+          </div>
         </section>
         <section class="search">
           <div class="search__container">
@@ -419,7 +435,7 @@
               class="bg-info__button"
               onclick="location.href='magazineProzhito.html'"
             >
-              Перейти к&nbsp;журналу
+              Посмотреть всю подборку
             </button>
           </div>
           <div class="info-list">
@@ -436,7 +452,10 @@
                 ></button>
               </div>
             </div>
-            <ul id="mediaNews" class="info-list__cards info-list__cards_type_media">
+            <ul
+              id="mediaNews"
+              class="info-list__cards info-list__cards_type_media"
+            >
               <li
                 class="magazine-card magazine-card_stalin"
                 onclick="location.href='magazineProzhito.html'"
