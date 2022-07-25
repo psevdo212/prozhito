@@ -1,6 +1,6 @@
 .news-card__text {
   grid-column: 1/-1;
-  height: 130px;
+  min-height: 130px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
@@ -17,5 +17,6 @@
   .news-card__text {
     font-size: 14px;
     line-height: 18px;
+    min-height: 54px;
   }
 }

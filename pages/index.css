@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/content/content.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header.css);
@@ -41,7 +40,9 @@
 @import url(../blocks/card/__photo/card__photo.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/diary/__title/diary__title.css);
-@import url(../blocks/diary/diary.css);
+@import url(../blocks/diary/__scroll/diary__scroll.css);
+@import url(../blocks/diary/__button-scroll/diary__button-scroll.css);
+@import url(../blocks/diary/__button-scroll/_active/diary__button-scroll_active.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__menu-links.css/footer__menu-links.css);
@@ -79,7 +80,6 @@
 @import url(../blocks/news-card/__text/news-card__text.css);
 @import url(../blocks/news-card/__title/news-card__title.css);
 @import url(../blocks/diary/__title/diary__title.css);
-@import url(../blocks/diary/diary.css);
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__photo/search__photo.css);
 @import url(../blocks/search/__main-text/search__main-text.css);

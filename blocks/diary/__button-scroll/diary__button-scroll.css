@@ -1,0 +1,9 @@
+.diary__button-scroll {
+margin: 0;
+padding: 0;
+background-image: url(../../../images/Ellipse_disabled.svg);
+width: 8px;
+height: 8px;
+background-color: rgba(0, 0, 0, 0);
+border: 0;
+}
