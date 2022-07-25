@@ -8,7 +8,7 @@
   max-width: 89px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   .news-card__date {
     font-size: 12px;
     line-height: 16px;
