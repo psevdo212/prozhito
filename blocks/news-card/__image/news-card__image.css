@@ -29,8 +29,7 @@
 
 @media screen and (max-width: 360px) {
   .news-card__image {
-    width: 336px;
-    height: 160px;
-    max-width: none;
+    max-width: 320px;
+    max-height: 160px;
   }
 }

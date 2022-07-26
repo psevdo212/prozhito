@@ -43,15 +43,15 @@ function addRemoveButtonsBgInfo() {
   const posXbgInfo = scrollBgInfo.scrollLeft;
 
   if (posXbgInfo >= 1) {
-    bgInfoButtonLeft.classList.add("info-list__button-left_active");
+    bgInfoButtonLeft.classList.add("info-list__button_left_active");
   } else {
-    bgInfoButtonLeft.classList.remove("info-list__button-left_active");
+    bgInfoButtonLeft.classList.remove("info-list__button_left_active");
   }
 
   if (posXbgInfo >= 1120) {
-    bgInfoButtonRight.classList.add("info-list__button-right_disabled");
+    bgInfoButtonRight.classList.add("info-list__button_right_disabled");
   } else if (posXbgInfo < 1120) {
-    bgInfoButtonRight.classList.remove("info-list__button-right_disabled");
+    bgInfoButtonRight.classList.remove("info-list__button_right_disabled");
   }
 }
 
@@ -60,38 +60,38 @@ function addRemoveButtonsMediaNews() {
   const posXMediaNews = scrollMediaNews.scrollLeft;
 
   if (posXMediaNews >= 1) {
-    mediaButtonLeft.classList.add("info-list__button-left_active");
+    mediaButtonLeft.classList.add("info-list__button_left_active");
   } else {
-    mediaButtonLeft.classList.remove("info-list__button-left_active");
+    mediaButtonLeft.classList.remove("info-list__button_left_active");
   }
 
   if (posXMediaNews >= 1120) {
-    mediaButtonRight.classList.add("info-list__button-right_disabled");
+    mediaButtonRight.classList.add("info-list__button_right_disabled");
   } else if (posXMediaNews < 1120) {
-    mediaButtonRight.classList.remove("info-list__button-right_disabled");
+    mediaButtonRight.classList.remove("info-list__button_right_disabled");
   }
 }
 
 // функция скролла карточек diary
 firstImage.addEventListener("click", () => {
   scrollDiary.scrollTo(0, 0);
-  firstImage.classList.add("diary__button-scroll-active");
-  secondImage.classList.remove("diary__button-scroll-active");
-  thirdImage.classList.remove("diary__button-scroll-active");
+  firstImage.classList.add("diary__button-scroll_active");
+  secondImage.classList.remove("diary__button-scroll_active");
+  thirdImage.classList.remove("diary__button-scroll_active");
 });
 
 secondImage.addEventListener("click", () => {
   scrollDiary.scrollTo(300, 0);
-  firstImage.classList.remove("diary__button-scroll-active");
-  secondImage.classList.add("diary__button-scroll-active");
-  thirdImage.classList.remove("diary__button-scroll-active");
+  firstImage.classList.remove("diary__button-scroll_active");
+  secondImage.classList.add("diary__button-scroll_active");
+  thirdImage.classList.remove("diary__button-scroll_active");
 });
 
 thirdImage.addEventListener("click", () => {
   scrollDiary.scrollTo(600, 0);
-  firstImage.classList.remove("diary__button-scroll-active");
-  secondImage.classList.remove("diary__button-scroll-active");
-  thirdImage.classList.add("diary__button-scroll-active");
+  firstImage.classList.remove("diary__button-scroll_active");
+  secondImage.classList.remove("diary__button-scroll_active");
+  thirdImage.classList.add("diary__button-scroll_active");
 });
 
 // Event listeners

@@ -15,10 +15,3 @@
     padding-top: 32px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .diary__title {
-    font-size: 32px;
-    line-height: 38px;
-  }
-}

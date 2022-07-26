@@ -14,7 +14,7 @@
 
 @media (max-width: 750px) {
   .special-project__text-content {
-    max-width: 320px;
+    padding: 0 8px 0 8px;
     margin: 0 auto;
   }
 }
