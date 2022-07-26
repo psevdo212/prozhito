@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-  .footer__social-media-link_text-hidden {
+  .footer__text_hidden {
     display: none;
   }
 }

@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 360px) {
   .news-card {
-    grid-template-columns: 336px;
+    grid-template-columns: 296px;
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     gap: 8px;
     max-width: none;

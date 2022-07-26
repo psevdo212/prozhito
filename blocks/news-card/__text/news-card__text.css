@@ -1,6 +1,6 @@
 .news-card__text {
   grid-column: 1/-1;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;

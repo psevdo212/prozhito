@@ -7,7 +7,7 @@
   width: 100%;
   margin: 0 auto 60px;
   padding-left: 7px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', "Inter";
 }
 
 @media screen and (max-width: 768px) {

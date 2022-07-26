@@ -33,7 +33,7 @@
                 >Архив</a
               >
             </li>
-            <li class="header_item">
+            <li class="header__item">
               <a
                 href="https://prozhito.org/persons"
                 target="_blank"
@@ -41,7 +41,7 @@
                 >Корпус</a
               >
             </li>
-            <li class="header_item header_subheader-opened">
+            <li class="header__item header__item_subheader-opened">
               <a
                 href="#"
                 target="_blank"
@@ -206,11 +206,11 @@
               <div class="info-list__buttons">
                 <button
                   id="bgInfoButtonLeft"
-                  class="info-list__button info-list__button-left"
+                  class="info-list__button info-list__button_left"
                 ></button>
                 <button
                   id="bgInfoButtonRight"
-                  class="info-list__button info-list__button-right"
+                  class="info-list__button info-list__button_right"
                 ></button>
               </div>
             </div>
@@ -375,7 +375,7 @@
             <button
               id="firstImage"
               type="button"
-              class="diary__button-scroll diary__button-scroll-active"
+              class="diary__button-scroll diary__button-scroll_active"
             ></button>
             <button
               id="secondImage"
@@ -410,8 +410,9 @@
             </div>
             <div class="search__button-container">
               <button
-                type="submit"
+                type="button"
                 class="search__button search__button_type_to-material"
+                onclick="location.href='typicalPage.html'"
               >
                 Перейти к&nbsp;материалу
                 <img
@@ -421,7 +422,7 @@
                 />
               </button>
               <button
-                type="submit"
+                type="button"
                 class="search__button search__button_type_submit"
               >
                 Оставить заявку
@@ -453,11 +454,11 @@
               <div class="info-list__buttons">
                 <button
                   id="mediaButtonLeft"
-                  class="info-list__button info-list__button-left"
+                  class="info-list__button info-list__button_left"
                 ></button>
                 <button
                   id="mediaButtonRight"
-                  class="info-list__button info-list__button-right"
+                  class="info-list__button info-list__button_right"
                 ></button>
               </div>
             </div>
@@ -626,7 +627,7 @@
               <img
                 src="./images/logo_eur_university_spb.svg"
                 alt="логотип университета"
-                class="logo header__logo"
+                class="logo"
               />
             </div>
             <button class="popup-menu__button-close"></button>
@@ -732,7 +733,7 @@
                     src="./images/logo_telegram.svg"
                     alt="логотип Телеграм"
                     class="footer__social-media-icon"
-                  /><span class="footer__social-media-link_text-hidden">
+                  /><span class="footer__text footer__text_hidden">
                     Телеграм</span
                   >
                 </a>
@@ -747,7 +748,7 @@
                     src="./images/logo_vk.svg"
                     alt="логотип Вконтакте"
                     class="footer__social-media-icon"
-                  /><span class="footer__social-media-link_text-hidden">
+                  /><span class="footer__text footer__text_hidden">
                     Вконтакте</span
                   >
                 </a>

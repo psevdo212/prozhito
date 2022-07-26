@@ -1,12 +1,12 @@
 .card__label {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   background: #a5cdab;
   border-radius: 8px;
   max-width: 187px;
-  height: 34px;
+  min-height: 34px;
   margin: auto;
   display: flex;
   align-items: center;

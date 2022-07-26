@@ -9,14 +9,14 @@
 @import url(../blocks/header/__menu-links/header__menu-links.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-link/_main/header__menu-link_main.css);
-@import url(../blocks/header/_subheader-opened/header_subheader-opened.css);
+@import url(../blocks/header/__item/_subheader-opened/header__item_subheader-opened.css);
 @import url(../blocks/header/__button-menu/header__button-menu.css);
 @import url(../blocks/subheader/subheader.css);
 @import url(../blocks/background/background.css);
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/__container/route__container.css);
 @import url(../blocks/route/__name/route__name.css);
-@import url(../blocks/route/_active-link/route_active-link.css);
+@import url(../blocks/route/__name/_active-link/route__name_active-link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu-links.css/footer__menu-links.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
@@ -30,7 +30,7 @@
 @import url(../blocks/footer/__social-media-link/footer__social-media-link.css);
 @import url(../blocks/footer/__social-media-links/footer__social-media-links.css);
 @import url(../blocks/footer/__social-media/footer__social-media.css);
-@import url(../blocks/footer/__social-media/_text-hidden/footer__social-media-link_text-hidden.css);
+@import url(../blocks/footer/__text/_hidden/footer__text_hidden.css);
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__date/news-card__date.css);
 @import url(../blocks/news-card/__image/news-card__image.css);

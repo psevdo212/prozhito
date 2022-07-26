@@ -11,7 +11,7 @@
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-link/_active/header__menu-link_active.css);
 @import url(../blocks/header/__menu-link/_main/header__menu-link_main.css);
-@import url(../blocks/header/_subheader-opened/header_subheader-opened.css);
+@import url(../blocks/header/__item/_subheader-opened/header__item_subheader-opened.css);
 @import url(../blocks/header/__button-menu/header__button-menu.css);
 @import url(../blocks/subheader/subheader.css);
 @import url(../blocks/background/background.css);
@@ -57,7 +57,7 @@
 @import url(../blocks/footer/__social-media-link/footer__social-media-link.css);
 @import url(../blocks/footer/__social-media-links/footer__social-media-links.css);
 @import url(../blocks/footer/__social-media/footer__social-media.css);
-@import url(../blocks/footer/__social-media/_text-hidden/footer__social-media-link_text-hidden.css);
+@import url(../blocks/footer/__text/_hidden/footer__text_hidden.css);
 @import url(../blocks/news/news.css);
 @import url(../blocks/bg-info/bg-info.css);
 @import url(../blocks/bg-info/__button/bg-info__button.css);
@@ -65,10 +65,10 @@
 @import url(../blocks/info-list/info-list.css);
 @import url(../blocks/info-list/__buttons/info-list__buttons.css);
 @import url(../blocks/info-list/__button/info-list__button.css);
-@import url(../blocks/info-list/__button-left/info-list__button-left.css);
-@import url(../blocks/info-list/__button-right/info-list__button-right.css);
-@import url(../blocks/info-list/__button-left/_active/info-list__button-left_active.css);
-@import url(../blocks/info-list/__button-right/_disabled/info-list__button-right_disabled.css);
+@import url(../blocks/info-list/__button/_left/info-list__button_left.css);
+@import url(../blocks/info-list/__button/_right/info-list__button_right.css);
+@import url(../blocks/info-list/__button/_left/_active/info-list__button_left_active.css);
+@import url(../blocks/info-list/__button/_right/_disabled/info-list__button_right_disabled.css);
 @import url(../blocks/info-list/__cards/info-list__cards.css);
 @import url(../blocks/info-list/__cards/_type/info-list__cards_type_media.css);
 @import url(../blocks/info-list/__header/info-list__header.css);

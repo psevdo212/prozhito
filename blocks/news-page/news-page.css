@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Inter";
   margin-bottom: 30px;
 }

@@ -1,10 +1,10 @@
 .search__title {
   grid-area: heading;
   font-size: 36px;
-  font-family: 'WF';
+  font-family: 'WF', "Inter";
   font-weight: 400;
   line-height: 1;
-  font-family: "WF";
+  font-family: "WF", "Inter";
   margin: 0;
 }
 
