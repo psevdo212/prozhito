@@ -6,3 +6,9 @@
   flex-direction: column;
   row-gap: 12px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__privacy-menu-links {
+    row-gap: 8px;
+  }
+}
