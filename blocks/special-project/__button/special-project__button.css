@@ -21,7 +21,7 @@
 
 @media (max-width: 940px) {
   .special-project__button {
-    width: 237px;
+    max-width: 237px;
     height: 48px;
     font-size: 14px;
     line-height: 18px;

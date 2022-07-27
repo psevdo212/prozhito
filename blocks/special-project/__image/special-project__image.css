@@ -21,3 +21,9 @@
     max-height: 200px;
   }
 }
+
+@media (max-width: 360px) {
+  .special-project__image {
+   height: 200px;
+  }
+}

@@ -37,10 +37,17 @@
 
 .info-list__cards::-webkit-scrollbar-thumb {
   height: 4px;
-  background-color: #323232
+  background-color: #323232;
+  width: 355px;
 }
 
 .info-list__cards::-webkit-scrollbar-track {
   height: 4px;
   background-color: #E7E4DE;
+}
+
+@media screen and (max-width: 768px) {
+  .info-list__cards::-webkit-scrollbar-thumb {
+    width: 358px;
+  }
 }

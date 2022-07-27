@@ -7,8 +7,17 @@
 
 @media screen and (max-width: 768px) {
   .footer__social-menu {
-    flex-wrap: wrap;
-    row-gap: 36px;
-    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 33px 360px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer__social-menu {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0;
+    margin: 26px auto 0;
   }
 }

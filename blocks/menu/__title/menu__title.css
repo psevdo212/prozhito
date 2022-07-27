@@ -14,7 +14,7 @@
   .menu__title {
     font-size: 24px;
     line-height: 30px;
-    margin: 28px 28px 12px 28px;
+    margin: 28px 28px 5px 28px;
   }
 }
 
@@ -22,6 +22,6 @@
   .menu__title {
     font-size: 26px;
     line-height: 32px;
-    margin: 12px;
+    margin: 12px 12px 0 12px;
   }
 }
