@@ -6,7 +6,7 @@
   background: #a5cdab;
   border-radius: 8px;
   max-width: 187px;
-  min-height: 34px;
+  height: 34px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -23,5 +23,12 @@
     color: #323232;
     max-height: 24px;
     border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card__label {
+    max-width: 108px;
+    height: 24px;
   }
 }

@@ -13,6 +13,12 @@
     }
   }
 
+  @media (max-width: 768px) {
+    .special-project {
+      margin: 32px auto 32px;
+    }
+  }
+
   @media (max-width: 750px) {
     .special-project {
       width: calc(100% - 24px);

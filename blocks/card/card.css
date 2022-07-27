@@ -3,7 +3,6 @@
   cursor: pointer;
   transition: opacity 0.2s linear;
   scroll-snap-align: center;
-  max-height: 360px;
 }
 
 .card:hover {

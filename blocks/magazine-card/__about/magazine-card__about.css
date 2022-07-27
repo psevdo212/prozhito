@@ -6,6 +6,12 @@
 
 @media screen and (min-width: 361px) and (max-width: 768px) {
   .magazine-card__about {
-    padding: 0 5px 12px 8px;
+    padding: 0 5px 0 8px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .magazine-card__about {
+    padding: 0 8px 25px;;
   }
 }
