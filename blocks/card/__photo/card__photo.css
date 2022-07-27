@@ -7,7 +7,8 @@
 
 @media screen and (max-width: 768px) {
   .card__photo {
-    max-width: 160px;
+    max-width: 173px;
     max-height: 180px;
+    margin: 0 32.5px 12px;
   }
 }

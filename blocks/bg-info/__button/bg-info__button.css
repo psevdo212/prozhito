@@ -36,15 +36,15 @@
     line-height: 18px;
     border: none;
     max-width: max-content;
-    margin: 0 20px 41px 0;
+    margin: 0 7px 30px 0;
   }
 
   .bg-info__button::after {
     background-image: url(../../../images/right_defautl_green.svg);
     width: 32px;
     height: 32px;
-    margin-left: 20px;
-    top: 5px;
+    margin-left: 24px;
+    top: 10px;
   }
 }
 
