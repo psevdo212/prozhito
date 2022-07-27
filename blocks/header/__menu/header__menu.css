@@ -1,11 +1,5 @@
 .header__menu {
-  margin-right: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .header__menu {
-    margin-right: 16px;
-  }
+  margin: 0;
 }
 
 @media screen and (max-width: 640px) {

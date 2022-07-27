@@ -11,14 +11,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .footer__logo-container {
-    margin: 0 auto;
-  }
-}
-
 @media screen and (max-width: 387px) {
   .footer__logo-container {
     order: 2;
+    margin: 0 auto;
   }
 }

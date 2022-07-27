@@ -1,17 +1,8 @@
 .header__menu-links {
+  margin: 0;
   padding: 0;
   display: flex;
   column-gap: 40px;
   list-style: none;
   text-decoration: none;
-}
-
-@media screen and (max-width: 768px) {
-  .header__menu-links {
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .header__menu-links {
-  }
 }
