@@ -1,12 +1,13 @@
 .subheader {
   position: absolute;
   top: 62px;
-  right: 20px;
+  right: 0;
   visibility: hidden;
 }
 
 @media screen and (max-width: 768px) {
   .subheader {
     column-gap: 7px;
+    right: -10px;
   }
 }
