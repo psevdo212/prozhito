@@ -9,7 +9,7 @@
   .footer__social-menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 33px 360px;
+    gap: 33px;
   }
 }
 

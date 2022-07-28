@@ -1,16 +1,8 @@
 .footer__social-media {
-  margin: 0;
   padding: 0;
-  min-width: 158px;
 }
 
-@media screen and (max-width: 768px) {
-  .footer__social-media {
-    min-width: 80px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
   .footer__social-media {
     margin: 0 auto;
   }

@@ -1,5 +1,5 @@
 .card__photo {
-  width: 200px;
+  max-width: 200px;
   height: 224px;
   margin: 0 auto 12px;
   display: block;
@@ -9,6 +9,6 @@
   .card__photo {
     max-width: 173px;
     max-height: 180px;
-    margin: 0 32.5px 12px;
+    margin: 0 auto 12px;
   }
 }
