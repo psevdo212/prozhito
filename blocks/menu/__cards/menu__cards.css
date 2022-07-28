@@ -1,9 +1,8 @@
 .menu__cards {
   margin: 0 auto;
-  padding-bottom: 163px;
+  padding-bottom: 159px;
   max-width: 1144px;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(336px, 562px)); */
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
