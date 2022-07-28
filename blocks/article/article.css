@@ -1,5 +1,5 @@
 .article {
-  margin: 47px auto 71px;
+  margin: 47px auto 99px;
   padding: 0;
   max-width: 910px;
   overflow: hidden;
@@ -72,7 +72,7 @@
   border-left: 2px solid #3a543e;
   padding-left: 15px;
   max-width: 678px;
-  margin: 32px auto;
+  margin: 32px 0 32px 115px;
 }
 
 .article .image {
@@ -86,7 +86,7 @@
 
 .article .image img {
   opacity: 0.9;
-  margin: 23px auto 52px;
+  margin: 23px auto 48px;
 }
 
 .article .image figcaption {
@@ -99,8 +99,8 @@
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
   max-width: 540px;
   left: 6%;
-  padding-bottom: 16px;
-  margin: 0 auto;
+  padding-bottom: 15px;
+  margin: 0 0 0 178px;
   text-align: left;
 }
 
@@ -125,7 +125,7 @@
   height: 110px;
   position: absolute;
   top: 32%;
-  right: 40%;
+  right: 42%;
   z-index: 1;
   border: none;
   cursor: pointer;
@@ -134,7 +134,7 @@
 
 .article div p {
   margin: 0 auto 0 116px;
-  padding: 16px 0 14px 0;
+  padding: 10px 0 16px 0;
   font-family: "PT Sans", "Inter";
   font-style: normal;
   font-weight: 400;
@@ -169,7 +169,7 @@
 }
 
 .article .gallery {
-  margin: 32px auto 100px;
+  margin: 32px auto 80px;
   position: relative;
   flex-direction: row;
   max-width: 910px;
@@ -230,7 +230,7 @@
   flex-direction: row;
   width: 569px;
   column-gap: 171px;
-  margin: 0 auto 16px;
+  margin: 0 auto 19px;
   overflow-y: hidden;
   overflow-x: scroll;
   scroll-behavior: smooth;
