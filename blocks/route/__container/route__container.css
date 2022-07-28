@@ -6,8 +6,3 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 560px) {
-  .route__container {
-    visibility: hidden;
-  }
-}

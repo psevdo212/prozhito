@@ -14,3 +14,9 @@
     column-gap: 32px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .footer__menu-links {
+    column-gap: 12px;
+  }
+}
