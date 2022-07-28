@@ -1,7 +1,13 @@
 .route__container {
-  margin-left: 20px;
+  margin-left: 32px;
   padding: 0;
   display: flex;
   column-gap: 5px;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 560px) {
+  .route__container {
+    visibility: hidden;
+  }
 }
