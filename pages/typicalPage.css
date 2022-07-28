@@ -17,6 +17,7 @@
 @import url(../blocks/subheader/subheader.css);
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/__container/route__container.css);
+@import url(../blocks/route/__container/_magazine/route__container_magazine.css);
 @import url(../blocks/route/__name/route__name.css);
 @import url(../blocks/route/__name/_active-link/route__name_active-link.css);
 @import url(../blocks/sidebanner/sidebanner.css);
