@@ -42,3 +42,11 @@
     max-width: none;
   }
 }
+
+@media screen and (max-width: 336px) {
+  .news-card {
+    grid-template-columns: 300px;
+  }
+}
+
+

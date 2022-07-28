@@ -34,3 +34,9 @@
     height: 50px;
   }
 }
+
+@media (max-width: 359px) {
+  .special-project__button {
+    max-width: 300px;
+  }
+}
