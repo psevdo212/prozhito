@@ -1,0 +1,12 @@
+.footer__social-media-link {
+  font-family: "PT Sans", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  transition: 0.1s ease-out;
+}
+
+.footer__social-media-link:hover {
+  border-bottom: 1px solid #323232;
+}

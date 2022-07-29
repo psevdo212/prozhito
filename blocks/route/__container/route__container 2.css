@@ -1,0 +1,8 @@
+.route__container {
+  margin-left: 32px;
+  padding: 0;
+  display: flex;
+  column-gap: 5px;
+  flex-wrap: wrap;
+}
+

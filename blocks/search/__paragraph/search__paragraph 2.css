@@ -1,0 +1,22 @@
+.search__paragraph {
+  margin: 0;
+  max-width: 660.29px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .search__paragraph {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search__paragraph {
+    max-width: 419px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .search__paragraph {
+    max-width: 336px;
+  }
+}

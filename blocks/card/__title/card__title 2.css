@@ -1,0 +1,20 @@
+.card__title {
+  color: #323232;
+  align-self: stretch;
+  font-family: "WF", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  margin: 0 auto 12px;
+  text-align: center;
+  max-width: 296px;
+  padding-top: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .card__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

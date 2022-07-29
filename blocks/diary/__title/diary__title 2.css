@@ -1,0 +1,23 @@
+.diary__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 120%;
+  margin: 0 auto 0;
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .diary__title {
+    font-size: 30px;
+    line-height: 37px;
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .diary__title {
+    line-height: 120%;
+  }
+}

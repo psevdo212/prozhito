@@ -1,0 +1,22 @@
+.magazine-card__subtitle {
+  font-size: 20px;
+  font-family: "PT Sans", "Inter";
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 12px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .magazine-card__subtitle {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .magazine-card__subtitle {
+    padding: 4px 0;;
+  }
+}

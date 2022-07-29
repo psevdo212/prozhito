@@ -1,0 +1,54 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1144px;
+  margin: 0 auto;
+  padding: 23px 0 56px 0;
+  list-style: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.cards::-webkit-scrollbar {
+  width: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .cards div:nth-child(2) {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    margin: 14px auto 0;
+    padding: 0 0 14px 0;
+  }
+
+  .cards div:nth-child(2) {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cards {
+    max-width: 852px;
+    overflow: hidden;
+    margin: 24px 0 0 29px;
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .cards {
+    max-width: 852px;
+    margin: 19px auto 0;
+    overflow-x: scroll;
+    padding: 0 0 0 41px;
+  }
+
+  .cards::-webkit-scrollbar {
+    padding: 0;
+  }
+}
+

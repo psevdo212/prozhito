@@ -1,0 +1,11 @@
+.header__menu-link_main {
+  font-size: 20px;
+  line-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-link_main {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
