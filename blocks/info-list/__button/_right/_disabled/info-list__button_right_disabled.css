@@ -1,0 +1,4 @@
+.info-list__button_right_disabled {
+  background-image: url(../../../../../images/right_disabled_circle.svg);
+  opacity: 0.5;
+}

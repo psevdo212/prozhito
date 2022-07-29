@@ -1,0 +1,23 @@
+.news {
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 560px) {
+  .news {
+    max-width: fit-content;
+    flex-direction: column;
+    max-height: 846px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .news {
+    max-width: 336px;
+    margin: 0 12px;
+    max-height: 846px;
+  }
+}

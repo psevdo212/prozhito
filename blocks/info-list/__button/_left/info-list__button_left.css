@@ -1,0 +1,5 @@
+.info-list__button_left {
+  background-image: url(../../../../images/left_disabled_circle.svg);
+  margin-right: 12px;
+  opacity: 0.5;
+}

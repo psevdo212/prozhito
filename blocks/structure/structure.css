@@ -1,0 +1,17 @@
+.structure {
+  margin: 0;
+  padding: 0;
+  max-width: 122px;
+  min-height: 26px;
+  transform: rotate(-90deg);
+  position: fixed;
+  top: 442px;
+  left: -27px;
+  z-index: 5;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .structure {
+    left: -20px;
+  }
+}

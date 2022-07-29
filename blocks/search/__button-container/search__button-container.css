@@ -1,0 +1,29 @@
+.search__button-container {
+  grid-area: buttons;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  font-size: 20px;
+  line-height: 1.3;
+  font-family: "PT Sans", "Inter";
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .search__button-container {
+    font-size: 1.95vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search__button-container {
+    column-gap: 12px;
+    font-size: 1.825vw;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .search__button-container {
+    display: contents;
+    font-size: 3.89vw;
+  }
+}

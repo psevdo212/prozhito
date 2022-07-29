@@ -1,0 +1,10 @@
+.audioplayer__to-end:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .audioplayer__to-end {
+    width: 18px;
+    height: 20px;
+  }
+}

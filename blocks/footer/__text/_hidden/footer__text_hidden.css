@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .footer__text_hidden {
+    display: none;
+  }
+}
