@@ -1,0 +1,32 @@
+.menu__button {
+  margin: 0;
+  padding: 0;
+  background-image: url(../../../images/right_defautl_green.svg);
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-size: contain;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+}
+
+.menu__button:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__button {
+    width: 32px;
+    height: 32px;
+    ;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .menu__button {
+    width: 52px;
+    height: 52px;
+  }
+}

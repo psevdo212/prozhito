@@ -1,0 +1,9 @@
+.menu__about {
+  margin: 32px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__about {
+    margin: 0;
+  }
+}

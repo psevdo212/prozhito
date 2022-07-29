@@ -1,0 +1,23 @@
+.special-project__card-text {
+  margin: 0;
+  padding-top: 18px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.6;
+  max-width: 402px;
+  min-height: 237px;
+  overflow: hidden;
+  font-family: "PT Sans", "Inter";
+}
+
+@media (max-width: 1100px) {
+  .special-project__card-text {
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 1;
+    max-width: 100%;
+    min-height: 90px;
+  }
+}

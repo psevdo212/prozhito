@@ -1,0 +1,463 @@
+.article {
+  margin: 47px auto 99px;
+  padding: 0;
+  max-width: 910px;
+  overflow: hidden;
+}
+
+.article h2 {
+  margin: 0 auto 28px;
+  padding: 0;
+  min-height: 18px;
+  font-family: "PT Sans", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  max-width: 676px;
+  word-spacing: 8px;
+}
+
+.article h1 {
+  margin: 0 auto 14px;
+  padding: 0;
+  max-width: 674px;
+  min-height: 55px;
+  font-family: "WF", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.article h4 {
+  margin: 0 auto 28px;
+  border-top: 1px solid #3a543e;
+  padding: 32px 0 0 0;
+  min-height: 26px;
+  font-family: "WF", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  text-align: center;
+  max-width: 678px;
+}
+
+.article span {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f4f0;
+  border-radius: 4px;
+}
+
+.article p {
+  font-family: "PT Sans", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 678px;
+  margin: 0 auto;
+}
+
+.article blockquote {
+  font-family: "WF", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  border-left: 2px solid #3a543e;
+  padding-left: 15px;
+  max-width: 678px;
+  margin: 32px 0 32px 115px;
+}
+
+.article .image {
+  margin: 32px auto 82px;
+  background: #f7f4f0;
+  width: 910px;
+  height: 520px;
+  position: relative;
+  text-align: center;
+}
+
+.article .image img {
+  opacity: 0.9;
+  margin: 23px auto 48px;
+}
+
+.article .image figcaption {
+  font-family: "PT Sans", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+  max-width: 540px;
+  left: 6%;
+  padding-bottom: 15px;
+  margin: 0 0 0 178px;
+  text-align: left;
+}
+
+.article div {
+  margin: 32px auto;
+  position: relative;
+  width: 678px;
+}
+
+.article div video {
+  width: 678px;
+  height: 379px;
+  background-color: #e7e4de;
+  margin: 0 auto;
+}
+
+.article div button {
+  background-image: url(../../images/play.png);
+  background-size: contain;
+  background-color: #e7e4de;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 32%;
+  right: 42%;
+  z-index: 1;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.article div p {
+  margin: 0 auto 0 116px;
+  padding: 10px 0 16px 0;
+  font-family: "PT Sans", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+  max-width: 562px;
+}
+
+.article .gallery figcaption {
+  font-family: "PT Sans", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+  max-width: 678px;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+}
+
+.article .gallery span {
+  background-color: #fff;
+  font-family: "PT Sans", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 30px;
+}
+
+.article .gallery {
+  margin: 32px auto 80px;
+  position: relative;
+  flex-direction: row;
+  max-width: 910px;
+  max-height: 520px;
+}
+
+.article .gallery .gallery__button-right {
+  background-image: url(../../images/arrow-right.svg);
+  background-color: transparent;
+  width: 18px;
+  height: 10px;
+  border: none;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  top: 388px;
+  right: 116px;
+  transition: 0.1s ease-out;
+}
+
+.article .gallery .gallery__button-right:hover {
+  opacity: 0.7;
+}
+
+.article .gallery .gallery__button-left {
+  background-image: url(../../images/arrow-left.svg);
+  background-color: transparent;
+  width: 18px;
+  height: 10px;
+  border: none;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  top: 388px;
+  left: 116px;
+  z-index: 1;
+  transition: 0.1s ease-out;
+  display: none;
+}
+
+.article .gallery .gallery__button-left:hover {
+  opacity: 0.7;
+}
+
+.article div audio {
+  width: 678px;
+  margin: 35px auto 23px;
+}
+
+.article .content {
+  display: flex;
+  flex-direction: row;
+  width: 569px;
+  column-gap: 171px;
+  margin: 0 auto 19px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 40px 170px 61px 171px;
+  background-color: #f7f4f0;
+}
+
+.article .content::-webkit-scrollbar {
+  width: 0;
+}
+
+.article .content .image {
+  margin: 0 auto;
+  min-width: 569px;
+  height: 397px;
+  padding: 0;
+  background-color: #f7f4f0;
+  scroll-snap-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .article .content {
+    padding: 32px 100px 32px 100px;
+    max-width: 469px;
+    max-height: 361px;
+  }
+
+  .article .image {
+    max-width: 669px;
+    max-height: 420px;
+  }
+
+  .article .image img {
+    max-width: 469px;
+    max-height: 361px;
+  }
+
+  .article .gallery {
+    max-width: 669px;
+    max-height: 420px;
+  }
+
+  .article .gallery .gallery__button-right {
+    top: 320px;
+    right: 40px;
+  }
+
+  .article .gallery .gallery__button-left {
+    top: 320px;
+    left: 40px;
+  }
+
+  .article .image figcaption {
+    max-width: 570px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article {
+    margin: 27px auto 71px;
+  }
+
+  .article h2 {
+    margin: 0 auto 18px;
+  }
+
+  .article h3 {
+    max-width: 400px;
+    margin: 0 auto 10px;
+    font-size: 36px;
+  }
+
+  .article h4 {
+    margin: 0 auto 18px;
+    padding: 26px 0 0 0;
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  .article p {
+    font-size: 14px;
+    max-width: 478px;
+    line-height: 25px;
+  }
+
+  .article blockquote {
+    font-size: 18px;
+    max-width: 478px;
+  }
+
+  .article .image figcaption {
+    font-size: 10px;
+  }
+
+  .article div {
+    width: 478px;
+  }
+
+  .article div {
+    width: 478px;
+  }
+
+  .article div video {
+    width: 478px;
+    height: 267px;
+  }
+
+  .article div button {
+    width: 80px;
+    height: 80px;
+    top: 30%;
+  }
+
+  .article div p {
+    font-size: 10px;
+  }
+
+  .article .image img {
+    max-width: 278px;
+    max-height: 256px;
+  }
+
+  .article .content {
+    padding: 0px 100px 50px 100px;
+    max-width: 278px;
+    max-height: 194px;
+  }
+
+  .article .gallery .gallery__button-right {
+    top: 170px;
+    right: 40px;
+  }
+
+  .article .gallery .gallery__button-left {
+    top: 170px;
+    left: 40px;
+  }
+
+  .article .image {
+    max-width: 460px;
+    max-height: 320px;
+  }
+
+  .article .gallery {
+    max-width: 478px;
+    max-height: 220px;
+  }
+
+  .article .image figcaption {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .article p {
+    font-size: 14px;
+    max-width: 240px;
+    line-height: 25px;
+  }
+
+  .article blockquote {
+    font-size: 18px;
+    max-width: 240px;
+  }
+
+  .article div {
+    width: 240px;
+  }
+
+  .article div video {
+    width: 240px;
+    height: 133px;
+  }
+
+  .article div button {
+    width: 40px;
+    height: 40px;
+    top: 25%;
+  }
+
+  .article div p {
+    font-size: 10px;
+    margin: 0 auto 0 40px;
+  }
+
+  .article .image {
+    max-width: 280px;
+    max-height: 280px;
+  }
+
+  .article .image img {
+    max-width: 210px;
+    max-height: 235px;
+    margin: 23px auto 30px;
+  }
+
+  .article .content {
+    max-width: 220px;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .article .gallery figcaption {
+    font-size: 10px;
+  }
+
+  .article .gallery span {
+    font-size: 10px;
+  }
+
+  .article .image figcaption {
+    max-width: 245px;
+  }
+
+  .article .gallery {
+    max-width: 270px;
+    max-height: 220px;
+    margin: 32px auto 50px;
+  }
+
+  .article .gallery .gallery__button-right {
+    top: 135px;
+    right: 5px;
+  }
+
+  .article .gallery .gallery__button-left {
+    top: 135px;
+    left: 5px;
+  }
+}

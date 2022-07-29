@@ -1,0 +1,25 @@
+.menu__cards {
+  margin: 0 auto;
+  padding-bottom: 159px;
+  max-width: 1144px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px){
+  .menu__cards {
+    max-width: 736px;
+    gap: 24px 12px;
+    padding-bottom: 36px;
+  }
+}
+
+@media screen and (max-width: 560px){
+  .menu__cards {
+    max-height: 754px;
+    gap: 12px;
+    grid-template-columns: 1fr;
+    padding-bottom: 96px;
+  }
+}

@@ -1,0 +1,19 @@
+.header__button-menu {
+  margin: 0 16px 0 0;
+  padding: 0;
+  width: 16px;
+  height: 14px;
+  background-image: url(../../../images/menu_triple_stripes.svg);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  background-size: contain;
+  transition: 0.1s ease-out;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .header__button-menu {
+    display: block;
+  }
+}

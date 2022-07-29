@@ -1,0 +1,30 @@
+.special-project__card {
+  display: flex;
+  flex-direction: row;
+  max-width: 678px;
+  min-height: 354px;
+  background-color: #f7f4f0;
+  position: relative;
+}
+
+.special-project__card:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .special-project__card {
+    flex-direction: column;
+    max-width: 361px;
+    min-height: 354px;
+  }
+}
+
+@media (max-width: 750px) {
+  .special-project__card {
+    max-width: 336px;
+    min-height: 386px;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #a5cdab;
+  }
+}

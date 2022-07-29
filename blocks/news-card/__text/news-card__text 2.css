@@ -1,0 +1,36 @@
+.news-card__text {
+  grid-column: 1/-1;
+  font-family: 'PT Sans', "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  color: rgba(50, 50, 50, 0.6);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
+}
+
+@media screen and (max-width: 1300px) {
+  .news-card__text {
+    font-size: 1em;
+    line-height: 1.81vw;
+    color: #323232;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-card__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .news-card__text {
+    font-size: 14px;
+    line-height: 18px;
+    min-height: 54px;
+  }
+}

@@ -1,0 +1,24 @@
+.search__button-arrow {
+  width: 16.61px;
+  height: 12.02px;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .search__button-arrow {
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .search__button-arrow {
+    width: 11.07px;
+    height: 8.01px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .search__button-arrow {
+    margin-left: 14.67px;
+  }
+}
