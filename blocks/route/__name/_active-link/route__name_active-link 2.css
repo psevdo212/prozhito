@@ -1,8 +1,0 @@
-.route__name_active-link {
-  transition: 0.1s ease-out;
-  cursor: pointer;
-}
-
-.route__name_active-link:hover {
-  border-bottom: 1px solid #323232;
-}
